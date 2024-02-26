@@ -18,12 +18,15 @@ To install the project, follow these steps:
 
 1. Clone the repository:
    ```git clone https://github.com/yourusername/e-commerce-backend.git```
+
 Navigate to the project directory:
 
 ```cd e-commerce-backend```
+
 Install dependencies:
 
 ```npm install```
+
 Configuration
 Before running the project, you need to configure the environment variables. Create a .env file in the root directory of the project and add the following variables:
 
