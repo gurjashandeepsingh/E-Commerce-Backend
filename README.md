@@ -31,7 +31,7 @@ To install the project, follow these steps:
 Before running the project, you need to configure the environment variables. Create a .env file in the root directory of the project and add the following variables:
 
 ## MongoDB connection URI
-MONGODB_URI=mongodb://localhost:27017/Triveous
+MONGODB_URI=mongodb://localhost:27017/ECommerce 
 
 ## JWT secret key for authentication
 JWT_GENERATION_KEY = "SecureKeyForJwtGeneration"
