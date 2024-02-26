@@ -17,7 +17,7 @@ Before you begin, ensure you have met the following requirements:
 To install the project, follow these steps:
 
 1. Clone the repository:
-   ```git clone https://github.com/yourusername/e-commerce-backend.git```
+   ```git@github.com:gurjashandeepsingh/E-Commerce-Backend.git```
 
 2. Navigate to the project directory:
 
