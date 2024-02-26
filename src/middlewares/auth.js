@@ -14,7 +14,7 @@ class AuthMiddleware {
     try {
       if (req.headers.token) {
         const token = req.headers.token;
-        const decodedToken = jwt.verify(token, process.env.jwtGenerationKey);
+        const decodedToken = jwt.verify(token, process.env.JWT_GENERATION_KEY);
         req.user = { id: decodedToken.id };
         return next();
       }

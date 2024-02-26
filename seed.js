@@ -6,7 +6,8 @@ import { cart as Cart } from "./src/models/cart/cartModel.js";
 import { user as User } from "./src/models/user/userModel.js";
 
 // Define Mongoose connection URI with the name of the new database
-const mongoURI = "mongodb://127.0.0.1:27017/Triveous";
+const mongoURI =
+  process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/Triveous";
 
 // Define dummy data for each table
 const categories = [
@@ -52,7 +53,7 @@ const orders = [
 
 const carts = [];
 
-const users = [ 
+const users = [
   {
     name: "John Doe",
     email: "john@example.com",

@@ -18,8 +18,10 @@ app.use("/merchantRoutes", MerchantRoutes);
 
 // Database Connection
 function databaseConnection() {
+  const mongoURI =
+    process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/ECommerce";
   mongoose
-    .connect("mongodb://127.0.0.1:27017/Triveous", {
+    .connect(mongoURI, {
       useUnifiedTopology: true,
       useNewUrlParser: true,
       autoCreate: true,

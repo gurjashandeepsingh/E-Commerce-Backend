@@ -20,7 +20,7 @@ class JwtToken {
     try {
       const token = jwt.sign(
         { id: id.toString() },
-        process.env.jwtGenerationKey
+        process.env.JWT_GENERATION_KEY
       );
       return token;
     } catch (error) {
