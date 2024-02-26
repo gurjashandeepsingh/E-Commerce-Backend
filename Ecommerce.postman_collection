@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "5d1cf9e7-740d-46e5-b7d5-c20f71610060",
+		"name": "Triveous",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27013950"
+	},
+	"item": [
+		{
+			"name": "AddProduct",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "CategoryListing",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "ProductListing",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ProductDetail",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "OrderPlacement",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZDliNmExYjIyNzg4ODFiMTU1YmJlYyIsImlhdCI6MTcwODgzNTI5OX0.qPBJsJvKe1YaAPEtsiNhMZtniJ6jZVPkRw8PuoG0Koc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cartId\": \"65dad26ddf0b0e516d0a4874\",\r\n    \"shippingAddress\": \"23er\",\r\n    \"paymentInfo\": \"23er\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/customerService/orderPlacement",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"customerService",
+						"orderPlacement"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Registration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\": \"test1@gmail.com\",\r\n\"password\": \"test1@gmail.com\",\r\n\"confirmPassword\": \"test1@gmail.com\",\r\n\"name\": \"testUser01\",\r\n\"address\": \"testUser01address\",\r\n\"phone\": \"162784625\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/loginOrRegister/registerUser",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"loginOrRegister",
+						"registerUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Active Cart",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZDliNmExYjIyNzg4ODFiMTU1YmJlYyIsImlhdCI6MTcwODgzNTI5OX0.qPBJsJvKe1YaAPEtsiNhMZtniJ6jZVPkRw8PuoG0Koc"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "localhost:4000/customerService/getActiveCart",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"customerService",
+						"getActiveCart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addToCart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZDliNmExYjIyNzg4ODFiMTU1YmJlYyIsImlhdCI6MTcwODgzNTI5OX0.qPBJsJvKe1YaAPEtsiNhMZtniJ6jZVPkRw8PuoG0Koc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"product\" : {\r\n        \"id\": \"65dac23da61e140e1eb19e6a\",\r\n        \"quantity\": -1\r\n    },\r\n    \"cartId\": \"65dad26ddf0b0e516d0a4874\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/customerService/addToCart",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"customerService",
+						"addToCart"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "local9000",
+			"value": "localhost:9000"
+		}
+	]
+}
