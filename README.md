@@ -44,10 +44,19 @@ Run seed file using the following command:
 
 
 To start the server, run the following command:
-
+   
    ```npm run start```
 
 The server will start running on port 9000 by default.
 
 To change port add env variable:
 ```PORT```
+
+# Usage
+Steps for Login functionality:
+
+1. Register User using registration API
+
+2. Login that User usgin login API
+
+3. Save the token returned and use it under ```token``` Request Header in all protected API routes.
