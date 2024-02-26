@@ -21,11 +21,11 @@ To install the project, follow these steps:
 
 2. Navigate to the project directory:
 
-```cd e-commerce-backend```
+   ```cd e-commerce-backend```
 
 3. Install dependencies:
 
-```npm install```
+   ```npm install```
 
 ## Configuration
 Before running the project, you need to configure the environment variables. Create a .env file in the root directory of the project and add the following variables:
@@ -40,12 +40,13 @@ Replace your_secret_key with a random string used to sign JWT tokens.
 ## Usage
 Run seed file using the following command:
 
-```npm run seed```
+   ```npm run seed```
 
 
 To start the server, run the following command:
 
-```npm run start```
+   ```npm run start```
+
 The server will start running on port 9000 by default.
 
 To change port add env variable:
