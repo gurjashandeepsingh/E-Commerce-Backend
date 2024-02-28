@@ -7,7 +7,7 @@ const productSchema = mongoose.Schema({
     type: String,
     require: true,
     minLength: 3,
-    maxLength: 20,
+    maxLength: 50,
     trim: true,
   },
   price: {
@@ -19,7 +19,7 @@ const productSchema = mongoose.Schema({
     type: String,
     require: true,
     minLength: 5,
-    maxLength: 200,
+    maxLength: 2000,
     trim: true,
   },
   category: {

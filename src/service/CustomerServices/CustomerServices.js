@@ -6,9 +6,6 @@ import { Product } from "../../models/product/productModel.js";
 // ## Summary
 // The `CustomerService` class provides various methods for managing categories, products, and orders in an e-commerce system. It allows users to retrieve category listings, product listings, product details, add items to the cart, place orders, view order history, and get order details.
 
-// ## Example Usage
-// const customerService = new CustomerService();
-
 // ## Code Analysis
 // ### Main functionalities
 // - Retrieve category listings
@@ -18,11 +15,6 @@ import { Product } from "../../models/product/productModel.js";
 // - Place orders
 // - View order history
 // - Get order details
-// ___
-// ### Fields
-// - `cart`: Represents the cart model.
-// - `order`: Represents the order model.
-// - `Product`: Represents the product model.
 // ___
 
 class CustomerService {
@@ -174,8 +166,51 @@ class CustomerService {
     return cartToAddTo;
   }
 
-  async getActiveCart(userId) {
+  async getActiveCart(userId, fieldName, fieldValue) {
     return await cart.findOne({ userId, isActive: true });
+  }
+
+  /**
+   * Updates a user's details.
+   * @param {string} _id - The ID of the user to update.
+   * @param {string} fieldName - The name of the field to update.
+   * @param {any} fieldValue - The new value for the field.
+   * @returns {Promise<object>} - The updated user object.
+   * @throws {Error} - If the user cannot be found or updated.
+   */
+  async changeUserDetails(_id, fieldName, fieldValue) {
+    const checkIfExists = await user.findOne({ id: _id });
+    if (!checkIfExists) {
+      throw new error("User not found");
+    }
+    // const updatedUser = await user.findOneAndUpdate(checkIfExists, {${fieldName}: ${fieldValue}});
+    if (!updatedUser) {
+      throw new Error("Can't update User");
+    }
+    return updatedUser;
+  }
+
+  /**
+   * Updates a user's information.
+   * @param {string} userId - The ID of the user to update.
+   * @param {string} fieldName - The name of the field to update.
+   * @param {any} fieldValue - The new value for the field.
+   * @returns {Promise<object>} - The updated user object.
+   * @throws {Error} - If the user cannot be found or updated.
+   */
+  async updateUser(userId, fieldName, fieldValue) {
+    const updateData = {};
+    updateData[fieldName] = fieldValue;
+
+    const updateUser = await user.findOneAndUpdate(
+      { _id: userId },
+      updateData,
+      { new: true }
+    );
+    if (!updateUser) {
+      throw new Error("Cannot update User");
+    }
+    return updateUser;
   }
 }
 

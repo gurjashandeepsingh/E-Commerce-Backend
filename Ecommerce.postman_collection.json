@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "5d1cf9e7-740d-46e5-b7d5-c20f71610060",
-		"name": "Triveous",
+		"name": "Ecommerce",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "27013950"
 	},
@@ -9,35 +9,119 @@
 		{
 			"name": "AddProduct",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Canon EOS Rebel T7i\",\r\n    \"price\": 60000,\r\n    \"category\": \"Camera\",\r\n    \"description\": \"Entry-level DSLR camera with advanced autofocus\",\r\n    \"availability\": true\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local9000}}/merchantRoutes/addProduct",
+					"host": [
+						"{{local9000}}"
+					],
+					"path": [
+						"merchantRoutes",
+						"addProduct"
+					]
+				}
 			},
 			"response": []
 		},
 		{
 			"name": "CategoryListing",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local9000}}/customerService/allCategories",
+					"host": [
+						"{{local9000}}"
+					],
+					"path": [
+						"customerService",
+						"allCategories"
+					]
+				}
 			},
 			"response": []
 		},
 		{
 			"name": "ProductListing",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"category\": \"Mobile\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
-					"raw": ""
+					"raw": "localhost:9000/customerService/productListing",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"customerService",
+						"productListing"
+					]
 				}
 			},
 			"response": []
 		},
 		{
 			"name": "ProductDetail",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\": \"65ded18de58598ce818103ea\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9000/customerService/getProductDetail",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"customerService",
+						"getProductDetail"
+					]
+				}
 			},
 			"response": []
 		},
@@ -76,7 +160,7 @@
 			"response": []
 		},
 		{
-			"name": "Registration",
+			"name": "RegistrationCustomer",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -104,7 +188,7 @@
 			"response": []
 		},
 		{
-			"name": "Login",
+			"name": "LoginCustomer",
 			"request": {
 				"method": "GET",
 				"header": []
@@ -170,6 +254,95 @@
 						"addToCart"
 					]
 				}
+			},
+			"response": []
+		},
+		{
+			"name": "LoginMerchant",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"alice01@example.com\",\r\n    \"password\": \"password123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9000/merchantRoutes/loginMerchant",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"merchantRoutes",
+						"loginMerchant"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RemoveProduct",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "AddInBulk",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "RemoveBulk",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "updateProduct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"products\" : [ \r\n    {\"productId\": \"65ded18de58598ce818103e7\",\r\n    \"fieldName\": \"availability\",\r\n    \"fieldValue\": false}]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9000/merchantRoutes/updateProduct",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"merchantRoutes",
+						"updateProduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateUser",
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}
