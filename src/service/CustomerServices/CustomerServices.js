@@ -171,26 +171,6 @@ class CustomerService {
   }
 
   /**
-   * Updates a user's details.
-   * @param {string} _id - The ID of the user to update.
-   * @param {string} fieldName - The name of the field to update.
-   * @param {any} fieldValue - The new value for the field.
-   * @returns {Promise<object>} - The updated user object.
-   * @throws {Error} - If the user cannot be found or updated.
-   */
-  async changeUserDetails(_id, fieldName, fieldValue) {
-    const checkIfExists = await user.findOne({ id: _id });
-    if (!checkIfExists) {
-      throw new error("User not found");
-    }
-    // const updatedUser = await user.findOneAndUpdate(checkIfExists, {${fieldName}: ${fieldValue}});
-    if (!updatedUser) {
-      throw new Error("Can't update User");
-    }
-    return updatedUser;
-  }
-
-  /**
    * Updates a user's information.
    * @param {string} userId - The ID of the user to update.
    * @param {string} fieldName - The name of the field to update.
