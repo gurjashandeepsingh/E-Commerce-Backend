@@ -3,6 +3,7 @@ const router = express.Router();
 import { validationResult, body } from "express-validator";
 import { MerchantService } from "../../service/MerchantServices/MerchantServices.js";
 
+// No Need for The Merchant to register as there will be only one Merchant. This API is just for testing purpose
 const registerValidation = [
   body("name").notEmpty().trim().withMessage("Provivde Merchant Name"),
   body("email").isEmail().notEmpty().withMessage("Provide email"),
@@ -56,6 +57,8 @@ router.post(
   }
 );
 
+// This is a JavaScript code for handling merchant login validation and authentication using Express router and MerchantService.
+
 const loginValidation = [
   body("email").notEmpty().withMessage("Provide Email"),
   body("password").notEmpty().withMessage("Provide password"),
@@ -74,6 +77,7 @@ router.post("/loginMerchant", loginValidation, async (request, response) => {
     response.status(400).send(error);
   }
 });
+
 // This is a JavaScript file containing code for adding a product with validation checks using Express and a MerchantService class.
 const addProductValidation = [
   body("name").notEmpty().trim().withMessage("Provide Name"),
