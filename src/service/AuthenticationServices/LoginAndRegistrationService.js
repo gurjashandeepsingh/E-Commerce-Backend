@@ -47,7 +47,7 @@ class AuthenticationService {
       if (isMatch) {
         const jwtTokenInstance = new JwtToken();
         const token = await jwtTokenInstance.jwtTokenGeneration(searchUser._id);
-        return token;
+        return { token, searchUser };
       } else {
         console.log("Password Incorrect");
       }

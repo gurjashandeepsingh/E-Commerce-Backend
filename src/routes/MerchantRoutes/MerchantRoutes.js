@@ -122,6 +122,7 @@ const addProductsBulkValidation = [
 ];
 router.post(
   "/addProductsInBulk",
+  new AuthMiddleware().auth,
   addProductsBulkValidation,
   async (request, response) => {
     const validationError = validationResult(request);
@@ -145,6 +146,7 @@ const removeProductValidation = [
 ];
 router.post(
   "/removeProduct",
+  new AuthMiddleware().auth,
   removeProductValidation,
   async (request, response) => {
     const validationError = validationResult(request);
@@ -168,6 +170,7 @@ const removeDataBulkValidation = [
 ];
 router.post(
   "/removeBulk",
+  new AuthMiddleware().auth,
   removeDataBulkValidation,
   async (request, response) => {
     const validationError = validationResult(request);
@@ -195,6 +198,7 @@ const updateProductValidation = [
 ];
 router.post(
   "/updateProduct",
+  new AuthMiddleware().auth,
   updateProductValidation,
   async (request, response) => {
     const validationError = validationResult(request);

@@ -204,23 +204,28 @@ const updateUserValidation = [
   body("fieldName").notEmpty().withMessage("Provide Field Name"),
   body("fieldValue").notEmpty().withMessage("Provide Field value"),
 ];
-router.post("/updateUser", updateUserValidation, async (request, response) => {
-  const validationError = validationResult(request);
-  if (!validationError.isEmpty()) {
-    throw new Error("Provide parameters");
+router.post(
+  "/updateUser",
+  new AuthMiddleware().auth,
+  updateUserValidation,
+  async (request, response) => {
+    const validationError = validationResult(request);
+    if (!validationError.isEmpty()) {
+      throw new Error("Provide parameters");
+    }
+    try {
+      const { userId, fieldName, fieldValue } = request.body;
+      const updateUserInstance = await new CustomerService();
+      const result = await updateUserInstance.updateUser(
+        userId,
+        fieldName,
+        fieldValue
+      );
+      response.status(200).send(result);
+    } catch (error) {
+      response.status(400).send(error);
+    }
   }
-  try {
-    const { userId, fieldName, fieldValue } = request.body;
-    const updateUserInstance = await new CustomerService();
-    const result = await updateUserInstance.updateUser(
-      userId,
-      fieldName,
-      fieldValue
-    );
-    response.status(200).send(result);
-  } catch (error) {
-    response.status(400).send(error);
-  }
-});
+);
 
 export { router as CustomerRouter };
