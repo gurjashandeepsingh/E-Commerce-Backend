@@ -4,7 +4,7 @@ This is the backend for an E-commerce platform built with Node.js and MongoDB.
 
 ## Introduction
 
-This project provides the backend functionality for an E-commerce platform. It includes features such as user authentication, product management, order processing, and email Service through Twillio Sendgrid.
+This project provides the backend functionality for an E-commerce platform. It includes features such as user authentication, product management, order processing and email Service through Twillio Sendgrid.
 
 ## Prerequisites
 
