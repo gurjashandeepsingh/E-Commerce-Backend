@@ -2,6 +2,7 @@ import express, { response } from "express";
 const router = express.Router();
 import { validationResult, body } from "express-validator";
 import { MerchantService } from "../../service/MerchantServices/MerchantServices.js";
+import { AuthMiddleware } from "../../middlewares/auth.js";
 
 // No Need for The Merchant to register as there will be only one Merchant. This API is just for testing purpose
 const registerValidation = [
@@ -86,29 +87,34 @@ const addProductValidation = [
   body("category").notEmpty().trim().withMessage("Provide Category"),
   body("availability").notEmpty().withMessage("Provide if available or not"),
 ];
-router.post("/addProduct", addProductValidation, async (request, response) => {
-  const validationError = validationResult(request);
-  if (!validationError.isEmpty()) {
-    return response.status(400).json({
-      errors: validationError.array(),
-    });
+router.post(
+  "/addProduct",
+  new AuthMiddleware().auth,
+  addProductValidation,
+  async (request, response) => {
+    const validationError = validationResult(request);
+    if (!validationError.isEmpty()) {
+      return response.status(400).json({
+        errors: validationError.array(),
+      });
+    }
+    try {
+      const { name, price, description, category, availability } = request.body;
+      const addProductInstance = new MerchantService();
+      const result = await addProductInstance.addProduct(
+        name,
+        price,
+        description,
+        category,
+        availability
+      );
+      response.status(200).send(result);
+      console.log(result);
+    } catch (error) {
+      response.status(400).send(error);
+    }
   }
-  try {
-    const { name, price, description, category, availability } = request.body;
-    const addProductInstance = new MerchantService();
-    const result = await addProductInstance.addProduct(
-      name,
-      price,
-      description,
-      category,
-      availability
-    );
-    response.status(200).send(result);
-    console.log(result);
-  } catch (error) {
-    response.status(400).send(error);
-  }
-});
+);
 
 // This code defines a route to add a product using product ID to the database after validating the request body
 const addProductsBulkValidation = [

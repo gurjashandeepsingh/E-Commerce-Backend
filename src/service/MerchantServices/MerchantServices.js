@@ -1,6 +1,8 @@
 import { Product } from "../../models/product/productModel.js";
 import { Merchant } from "../../models/merchant/merchantModel.js";
 import { order } from "../../models/orders/orderModel.js";
+import { JwtToken } from "../AuthenticationServices/jwtAuthentication.js";
+import bcrypt from "bcrypt";
 import { user } from "../../models/user/userModel.js";
 
 /**
@@ -9,11 +11,48 @@ import { user } from "../../models/user/userModel.js";
  * @name MerchantService
  */
 class MerchantService {
-  async loginMerchant(email, password) {
-    if (email === "merchantEmail@example.com" || password === "qqQQ11!!") {
-      const allOrders = await order.find();
-      return allOrders;
+  async registerMerchant(
+    name,
+    email,
+    password,
+    confirmPassword,
+    businessName,
+    phone,
+    website,
+    logo,
+    description,
+    address
+  ) {
+    if (password === confirmPassword) {
+      const hashPassword = await bcrypt.hash(password, 10);
+      const mainMerchant = new Merchant({
+        name,
+        email,
+        password: hashPassword,
+        businessName,
+        phone,
+        website,
+        logo,
+        description,
+        address,
+      });
+      const savedMerchant = await mainMerchant.save();
+      return savedMerchant;
     }
+  }
+  async loginMerchant(email, password) {
+    const checkEmail = await Merchant.findOne({ email });
+    if (!checkEmail) {
+      throw new Error("Wrong Email");
+    }
+    const checkPassword = await bcrypt.compare(password, checkEmail.password);
+    if (!checkPassword) {
+      throw new Error("Password wrong");
+    }
+    const jwtTokenInstance = new JwtToken();
+    const token = await jwtTokenInstance.jwtTokenGeneration(checkEmail._id);
+    const allOrders = await order.find();
+    return { allOrders, token };
   }
 
   /**
