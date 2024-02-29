@@ -3,6 +3,7 @@ dotenv.config();
 import mongoose from "mongoose";
 import bodyParser from "body-parser";
 import express from "express";
+import { logger } from "../winstonLogger.js";
 const app = express();
 
 // All File Imports
@@ -27,17 +28,17 @@ function databaseConnection() {
       autoCreate: true,
     })
     .then(() => {
-      console.log("Database Connected");
+      logger.info("Database Connected");
     })
     .catch((Error) => {
-      console.log(Error);
+      logger.error(Error);
     });
 }
 
 // Server Run
 function runServer(port) {
   app.listen(process.env.PORT, (request, response) => {
-    console.log(`Server Connected`);
+    logger.info("Server Running at Port 9000");
   });
 }
 

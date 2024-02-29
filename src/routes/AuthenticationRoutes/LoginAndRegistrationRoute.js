@@ -3,6 +3,7 @@ const router = express.Router();
 import { validationResult, body } from "express-validator";
 import { user } from "../../models/user/userModel.js";
 import { AuthenticationService } from "../../service/AuthenticationServices/LoginAndRegistrationService.js";
+import { logger } from "../../../winstonLogger.js";
 
 // This code defines a route for logging in a user, with validation for email and password fields. It uses the express framework and a custom AuthenticationService class to handle the login process.
 const saveUserValidation = [
@@ -23,11 +24,11 @@ router.post("/loginUser", saveUserValidation, async (request, response) => {
     const { email, password } = request.body;
     const loginUserInstance = new AuthenticationService();
     const result = await loginUserInstance.loginUser(email, password);
-    console.log(result);
+    logger.info(result);
     response.status(200).send(result);
   } catch (error) {
     response.status(400).send(error);
-    console.log(error);
+    logger.error(error);
   }
 });
 
@@ -65,8 +66,8 @@ router.post(
       );
       response.status(200).send(Register);
     } catch (error) {
-      response.status(400).send(error.message || error);
-      // console.log(error);
+      response.status(400).send("Error While fetching");
+      logger.error(error);
     }
   }
 );

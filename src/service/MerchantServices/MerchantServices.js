@@ -3,7 +3,6 @@ import { Merchant } from "../../models/merchant/merchantModel.js";
 import { order } from "../../models/orders/orderModel.js";
 import { JwtToken } from "../AuthenticationServices/jwtAuthentication.js";
 import bcrypt from "bcrypt";
-import { user } from "../../models/user/userModel.js";
 
 /**
  * The MerchantService class provides methods for managing products in a merchant's inventory.

@@ -3,6 +3,7 @@ const router = express.Router();
 import { validationResult, body } from "express-validator";
 import { CustomerService } from "../../service/CustomerServices/CustomerServices.js";
 import { AuthMiddleware } from "../../middlewares/auth.js";
+import { logger } from "../../../winstonLogger.js";
 
 // Category Listing
 // An API endpoint that retrieves a list of categories
@@ -192,8 +193,10 @@ router.get(
       const { id } = request.user;
       const orderHistoryInstance = new CustomerService();
       const result = await orderHistoryInstance.getActiveCart(id);
+      logger.info(result);
       response.status(200).send(result);
     } catch (error) {
+      logger.error(error);
       response.status(400).send(error);
     }
   }
@@ -221,8 +224,10 @@ router.post(
         fieldName,
         fieldValue
       );
+      logger.info(result);
       response.status(200).send(result);
     } catch (error) {
+      logger.error(error);
       response.status(400).send(error);
     }
   }

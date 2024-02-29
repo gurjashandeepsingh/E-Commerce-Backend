@@ -3,6 +3,7 @@ const router = express.Router();
 import { validationResult, body } from "express-validator";
 import { MerchantService } from "../../service/MerchantServices/MerchantServices.js";
 import { AuthMiddleware } from "../../middlewares/auth.js";
+import { logger } from "../../../winstonLogger.js";
 
 // No Need for The Merchant to register as there will be only one Merchant. This API is just for testing purpose
 const registerValidation = [
@@ -51,8 +52,10 @@ router.post(
         description,
         address
       );
+      logger.info(result);
       response.status(200).send(result);
     } catch (error) {
+      logger.error(error);
       response.status(400).send(error);
     }
   }
@@ -108,9 +111,10 @@ router.post(
         category,
         availability
       );
+      logger.info(result);
       response.status(200).send(result);
-      console.log(result);
     } catch (error) {
+      logger.error(error);
       response.status(400).send(error);
     }
   }
@@ -133,6 +137,7 @@ router.post(
       const { products } = request.body;
       const addBulkInstance = await new MerchantService();
       const result = await addBulkInstance.addProductsInBulk(products);
+      logger.info(result);
       response.status(200).send(result);
     } catch (error) {
       response.status(400).send(error);
@@ -157,8 +162,10 @@ router.post(
       const { productId } = request.body;
       const removeProductInstance = await new MerchantService();
       const result = await removeProductInstance.removeProduct(productId);
+      logger.info(result);
       response.status(200).send("Product Deleted");
     } catch (error) {
+      logger.error(error);
       response.status(400).send(error);
     }
   }
@@ -181,8 +188,10 @@ router.post(
       const { productIds } = request.body;
       const removeBulkInstance = await new MerchantService();
       const result = await removeBulkInstance.removeBulk(productIds);
+      logger.info(result);
       response.status(200).send(result);
     } catch (error) {
+      logger.error(error);
       response.status(400).send(error);
     }
   }
@@ -213,8 +222,10 @@ router.post(
         fieldName,
         fieldValue
       );
+      logger.info(result);
       response.status(200).send(result);
     } catch (error) {
+      logger.error(error);
       response.status(400).send(error);
     }
   }

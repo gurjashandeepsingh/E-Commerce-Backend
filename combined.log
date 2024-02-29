@@ -1,0 +1,23 @@
+{"level":"info","message":"Database Connected","timestamp":"2024-02-29T04:56:40.940Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-02-29T04:57:32.614Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-02-29T04:57:32.645Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-02-29T05:00:06.720Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-02-29T05:00:06.753Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-02-29T05:01:20.559Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-02-29T05:01:20.580Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-02-29T05:03:59.629Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-02-29T05:03:59.675Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-02-29T05:04:52.459Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-02-29T05:04:52.510Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-02-29T05:05:30.937Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-02-29T05:05:30.988Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-02-29T05:05:56.154Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-02-29T05:05:56.188Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-02-29T05:07:12.978Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-02-29T05:07:13.007Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-02-29T05:08:27.671Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-02-29T05:08:27.704Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-02-29T05:11:05.653Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-02-29T05:11:05.672Z"}
+{"level":"info","message":[{"__v":0,"_id":"65e011f4af33c02db70e3729","availability":true,"category":"Mobile","description":"High-end smartphone with advanced features","name":"Samsung Galaxy S21","price":799},{"__v":0,"_id":"65e011f4af33c02db70e372a","availability":true,"category":"Mobile","description":"Larger version of the Samsung Galaxy S21 with extended features","name":"Samsung Galaxy S21 Plus","price":899},{"__v":0,"_id":"65e011f4af33c02db70e372b","availability":true,"category":"Mobile","description":"Ultimate flagship smartphone with top-of-the-line features and capabilities","name":"Samsung Galaxy S21 Ultra","price":1199},{"__v":0,"_id":"65e011f4af33c02db70e372c","availability":true,"category":"Mobile","description":"Fan Edition of the Samsung Galaxy S20 series with premium features at a lower price point","name":"Samsung Galaxy S20 FE","price":599},{"__v":0,"_id":"65e011f4af33c02db70e372d","availability":true,"category":"Mobile","description":"Mid-range smartphone with a sleek design and impressive camera capabilities","name":"Samsung Galaxy A52","price":399},{"__v":0,"_id":"65e011f4af33c02db70e372e","availability":true,"category":"Mobile","description":"Powerful smartphone with a large display, S Pen functionality, and high-end performance","name":"Samsung Galaxy Note 20 Ultra","price":1299},{"__v":0,"_id":"65e011f4af33c02db70e372f","availability":true,"category":"Mobile","description":"Foldable smartphone with a large foldable display, innovative design, and multitasking capabilities","name":"Samsung Galaxy Z Fold 3","price":1799},{"__v":0,"_id":"65e011f4af33c02db70e3730","availability":true,"category":"Audio","description":"Premium wireless earbuds with active noise cancellation and immersive sound quality","name":"Samsung Galaxy Buds Pro","price":199},{"__v":0,"_id":"65e011f4af33c02db70e3731","availability":true,"category":"Wearable","description":"Advanced smartwatch with health and fitness tracking features, stylish design, and long battery life","name":"Samsung Galaxy Watch 4","price":349},{"__v":0,"_id":"65e011f4af33c02db70e3732","availability":true,"category":"Tablet","description":"High-performance tablet with a stunning display, S Pen support, and PC-like productivity features","name":"Samsung Galaxy Tab S7+","price":849}],"timestamp":"2024-02-29T05:11:16.606Z"}
+{"level":"info","message":{"__v":0,"_id":"65e01272af33c02db70e3734","availability":true,"category":"Electronics","description":"High-performance smartphone with advanced features.","name":"Smartphone","price":599.99},"timestamp":"2024-02-29T05:13:22.629Z"}

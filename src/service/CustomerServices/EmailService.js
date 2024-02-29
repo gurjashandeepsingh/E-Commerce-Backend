@@ -3,6 +3,7 @@ dotenv.config();
 import sgMail from "@sendgrid/mail";
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 import axios from "axios";
+import { logger } from "../../../winstonLogger.js";
 
 class EmailServices {
   // async sendEmail(to, from, subject, text) {
@@ -59,9 +60,7 @@ class EmailServices {
       const send = await sgMail.send(msg);
       console.log("Email sent successfully");
     } catch (error) {
-      console.error("Error sending email:");
-      console.error(error);
-      console.error(error.response.body.errors || "Something went wrong");
+      logger.error(error.response.body.errors || "Something went wrong");
       throw error;
     }
   }
