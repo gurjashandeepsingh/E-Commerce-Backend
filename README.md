@@ -60,3 +60,10 @@ Steps for Login functionality:
 2. Login that User usgin login API
 
 3. Save the token returned and use it under ```token``` Request Header in all protected API routes.
+
+4. For AddProduct API use jwt token in Headers 
+   ```token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZGZjYzY5NmRkMDZmYmRiOTk5ZTExYiIsImlhdCI6MTcwOTE2NTg4Nn0.MdqZVObczrE1g2E2XhuT6gOE7bBmpOYYW84CRKGGCPs```
+
+5. For Order Placement API use Jwt Token in Headers
+```Token: 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZDliNmExYjIyNzg4ODFiMTU1YmJlYyIsImlhdCI6MTcwODgzNTI5OX0.qPBJsJvKe1YaAPEtsiNhMZtniJ6jZVPkRw8PuoG0Koc``` 
