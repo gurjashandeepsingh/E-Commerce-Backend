@@ -4,7 +4,7 @@ This is the backend for an E-commerce platform built with Node.js and MongoDB.
 
 ## Introduction
 
-This project provides the backend functionality for an E-commerce platform. It includes features such as user authentication, product management, order processing, and more.
+This project provides the backend functionality for an E-commerce platform. It includes features such as user authentication, product management, order processing, and email Service through Twillio Sendgrid.
 
 ## Prerequisites
 
@@ -60,3 +60,5 @@ Steps for Login functionality:
 2. Login that User usgin login API
 
 3. Save the token returned and use it under ```token``` Request Header in all protected API routes.
+
+Time taken to complete : 3 Days
