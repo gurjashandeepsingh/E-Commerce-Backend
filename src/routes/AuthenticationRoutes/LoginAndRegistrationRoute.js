@@ -66,7 +66,7 @@ router.post(
       response.status(200).send(Register);
     } catch (error) {
       response.status(400).send(error.message || error);
-      console.log(error);
+      // console.log(error);
     }
   }
 );
