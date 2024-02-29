@@ -2,6 +2,7 @@ import { cart } from "../../models/cart/cartModel.js";
 import { user } from "../../models/user/userModel.js";
 import { order } from "../../models/orders/orderModel.js";
 import { Product } from "../../models/product/productModel.js";
+import { EmailServices } from "./EmailService.js";
 
 // ## Summary
 // The `CustomerService` class provides various methods for managing categories, products, and orders in an e-commerce system. It allows users to retrieve category listings, product listings, product details, add items to the cart, place orders, view order history, and get order details.

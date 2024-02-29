@@ -1,4 +1,5 @@
 import { user } from "../../models/user/userModel.js";
+import { EmailServices } from "../CustomerServices/EmailService.js";
 import { JwtToken } from "./jwtAuthentication.js";
 import bcrypt from "bcrypt";
 
@@ -25,6 +26,15 @@ class AuthenticationService {
       if (!checkIfAlreadyExisting) {
         password = await bcrypt.hash(password, 10);
         const User = new user({ name, email, password, phone, address });
+
+        const emailServiceInstance = new EmailServices();
+        const sendMail = await emailServiceInstance.sendEmail(
+          email,
+          "gurjashandeepsinghwork1@gmail.com",
+          "Test Email",
+          "This is a test email from SendGrid"
+        );
+
         const registeredUser = await User.save();
         return registeredUser;
       } else {
