@@ -61,4 +61,6 @@ Steps for Login functionality:
 
 3. Save the token returned and use it under ```token``` Request Header in all protected API routes.
 
+```To access most of the routes, you need to pass the JWT Tokens for authorization as most of the routes are protected```
+
 Time taken to complete : 3 Days
