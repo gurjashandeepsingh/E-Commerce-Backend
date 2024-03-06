@@ -21,3 +21,700 @@
 {"level":"info","message":"Database Connected","timestamp":"2024-02-29T05:11:05.672Z"}
 {"level":"info","message":[{"__v":0,"_id":"65e011f4af33c02db70e3729","availability":true,"category":"Mobile","description":"High-end smartphone with advanced features","name":"Samsung Galaxy S21","price":799},{"__v":0,"_id":"65e011f4af33c02db70e372a","availability":true,"category":"Mobile","description":"Larger version of the Samsung Galaxy S21 with extended features","name":"Samsung Galaxy S21 Plus","price":899},{"__v":0,"_id":"65e011f4af33c02db70e372b","availability":true,"category":"Mobile","description":"Ultimate flagship smartphone with top-of-the-line features and capabilities","name":"Samsung Galaxy S21 Ultra","price":1199},{"__v":0,"_id":"65e011f4af33c02db70e372c","availability":true,"category":"Mobile","description":"Fan Edition of the Samsung Galaxy S20 series with premium features at a lower price point","name":"Samsung Galaxy S20 FE","price":599},{"__v":0,"_id":"65e011f4af33c02db70e372d","availability":true,"category":"Mobile","description":"Mid-range smartphone with a sleek design and impressive camera capabilities","name":"Samsung Galaxy A52","price":399},{"__v":0,"_id":"65e011f4af33c02db70e372e","availability":true,"category":"Mobile","description":"Powerful smartphone with a large display, S Pen functionality, and high-end performance","name":"Samsung Galaxy Note 20 Ultra","price":1299},{"__v":0,"_id":"65e011f4af33c02db70e372f","availability":true,"category":"Mobile","description":"Foldable smartphone with a large foldable display, innovative design, and multitasking capabilities","name":"Samsung Galaxy Z Fold 3","price":1799},{"__v":0,"_id":"65e011f4af33c02db70e3730","availability":true,"category":"Audio","description":"Premium wireless earbuds with active noise cancellation and immersive sound quality","name":"Samsung Galaxy Buds Pro","price":199},{"__v":0,"_id":"65e011f4af33c02db70e3731","availability":true,"category":"Wearable","description":"Advanced smartwatch with health and fitness tracking features, stylish design, and long battery life","name":"Samsung Galaxy Watch 4","price":349},{"__v":0,"_id":"65e011f4af33c02db70e3732","availability":true,"category":"Tablet","description":"High-performance tablet with a stunning display, S Pen support, and PC-like productivity features","name":"Samsung Galaxy Tab S7+","price":849}],"timestamp":"2024-02-29T05:11:16.606Z"}
 {"level":"info","message":{"__v":0,"_id":"65e01272af33c02db70e3734","availability":true,"category":"Electronics","description":"High-performance smartphone with advanced features.","name":"Smartphone","price":599.99},"timestamp":"2024-02-29T05:13:22.629Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T09:39:03.051Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T09:39:03.078Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T09:40:17.222Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T09:40:17.242Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T09:41:10.245Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T09:41:10.268Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T09:41:24.043Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T09:41:24.071Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T09:44:47.215Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T09:44:47.240Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T09:45:15.904Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T09:45:15.925Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T09:45:28.130Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T09:45:28.156Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T09:45:53.384Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T09:45:53.405Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T09:48:27.149Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T09:48:27.177Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T09:49:41.764Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T09:49:41.786Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T09:50:18.846Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T09:50:18.879Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T09:50:44.202Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T09:50:44.230Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T09:51:22.064Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T09:51:22.082Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T09:52:02.806Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T09:52:02.826Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T09:52:24.992Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T09:52:25.019Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T09:57:15.370Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T09:57:15.388Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T09:57:20.963Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T09:57:20.978Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T09:58:36.546Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T09:58:36.568Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T09:59:58.416Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T09:59:58.432Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T04:52:11.662Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T04:52:11.688Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T04:55:37.590Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T04:55:37.610Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T04:55:53.941Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T04:55:53.961Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T04:57:19.027Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T04:57:19.055Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T05:21:26.726Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T05:21:26.769Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T05:22:27.224Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T05:22:27.267Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T05:23:47.490Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T05:23:47.518Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T05:29:54.065Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T05:29:54.098Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T05:33:23.579Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T05:33:23.607Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T05:35:03.994Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T05:35:04.014Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T05:47:19.028Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T05:47:19.054Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T05:47:57.243Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T05:47:57.262Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T05:51:40.632Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T05:51:40.673Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T05:51:59.193Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T05:51:59.214Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-02T05:58:28.783Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-02T05:58:28.806Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T05:41:24.629Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T05:41:24.659Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T05:41:24.687Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T05:41:40.001Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T05:41:40.039Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T05:42:50.265Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T05:42:50.307Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T05:42:50.347Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T05:44:17.774Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T05:44:17.823Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T05:44:17.865Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T05:45:31.307Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T05:45:31.341Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T05:45:31.372Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T05:48:52.734Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T05:48:52.772Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T05:48:52.805Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T05:50:54.173Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T05:50:54.213Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T05:50:54.244Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T05:52:33.890Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T05:52:33.927Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T05:52:33.953Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T05:53:12.103Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T05:53:12.137Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T05:53:12.164Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T05:55:02.269Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T05:55:02.306Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T05:55:02.340Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T05:55:11.226Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T05:55:11.262Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T05:55:11.291Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T05:56:50.892Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T05:56:50.927Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T05:56:50.959Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T05:57:32.458Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T05:57:32.511Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T05:57:32.563Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T05:59:54.306Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T05:59:54.351Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T05:59:54.389Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T06:00:17.172Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T06:00:17.218Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T06:00:17.260Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T06:01:39.585Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T06:01:39.628Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T06:01:39.675Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T06:02:13.790Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T06:02:13.824Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T06:02:13.858Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T06:04:30.964Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T06:04:30.997Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T06:04:31.026Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T06:05:53.830Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T06:05:53.876Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T06:05:53.917Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T06:06:45.043Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T06:06:45.088Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T06:06:45.128Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T06:08:03.624Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T06:08:03.682Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T06:08:03.725Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T06:08:55.586Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T06:08:55.621Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T06:08:55.657Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T06:10:28.137Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T06:10:28.176Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T06:10:28.213Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T06:10:47.798Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T06:10:47.838Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T06:10:47.889Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T06:10:55.058Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T06:10:55.098Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T06:10:55.135Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T06:11:12.715Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T06:11:12.760Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T06:11:12.803Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T06:11:33.574Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T06:11:33.620Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T06:11:33.662Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T06:11:59.549Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T06:11:59.584Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T06:11:59.618Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T06:13:02.994Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T06:13:03.025Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T06:13:03.060Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T06:13:09.775Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T06:13:09.807Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T06:13:09.838Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T06:13:25.198Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T06:13:25.246Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T06:13:25.288Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T06:13:42.108Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T06:13:42.149Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T06:13:42.189Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T06:13:50.299Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T06:13:50.346Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T06:13:50.383Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:09:01.296Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:09:01.341Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:09:01.377Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:11:12.092Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:11:12.128Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:11:12.163Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:12:08.097Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:12:08.144Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:12:08.182Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:12:50.933Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:12:50.967Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:12:51.004Z"}
+{"level":"info","timestamp":"2024-03-03T07:12:52.457Z"}
+{"level":"error","timestamp":"2024-03-03T07:13:11.515Z"}
+{"level":"error","timestamp":"2024-03-03T07:14:01.219Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:14:12.566Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:14:12.597Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:14:12.627Z"}
+{"level":"error","message":[{"field":null,"help":null,"message":"The provided authorization grant is invalid, expired, or revoked"}],"timestamp":"2024-03-03T07:14:16.618Z"}
+{"code":401,"message":"Unauthorized","response":{"body":{"errors":[{"field":null,"help":null,"message":"The provided authorization grant is invalid, expired, or revoked"}]},"headers":{"access-control-allow-headers":"Authorization, Content-Type, On-behalf-of, x-sg-elas-acl","access-control-allow-methods":"POST","access-control-allow-origin":"https://sendgrid.api-docs.io","access-control-max-age":"600","connection":"close","content-length":"116","content-type":"application/json","date":"Sun, 03 Mar 2024 07:14:16 GMT","server":"nginx","strict-transport-security":"max-age=600; includeSubDomains","x-no-cors-reason":"https://sendgrid.com/docs/Classroom/Basics/API/cors.html"}}}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:18:06.465Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:18:06.496Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:18:06.532Z"}
+{"level":"error","timestamp":"2024-03-03T07:18:09.213Z"}
+{"level":"error","timestamp":"2024-03-03T07:25:50.882Z"}
+{"level":"error","timestamp":"2024-03-03T07:26:28.592Z"}
+{"level":"error","message":[{"field":null,"help":null,"message":"The provided authorization grant is invalid, expired, or revoked"}],"timestamp":"2024-03-03T07:26:30.590Z"}
+{"code":401,"message":"Unauthorized","response":{"body":{"errors":[{"field":null,"help":null,"message":"The provided authorization grant is invalid, expired, or revoked"}]},"headers":{"access-control-allow-headers":"Authorization, Content-Type, On-behalf-of, x-sg-elas-acl","access-control-allow-methods":"POST","access-control-allow-origin":"https://sendgrid.api-docs.io","access-control-max-age":"600","connection":"close","content-length":"116","content-type":"application/json","date":"Sun, 03 Mar 2024 07:26:30 GMT","server":"nginx","strict-transport-security":"max-age=600; includeSubDomains","x-no-cors-reason":"https://sendgrid.com/docs/Classroom/Basics/API/cors.html"}}}
+{"level":"error","message":[{"field":null,"help":null,"message":"The provided authorization grant is invalid, expired, or revoked"}],"timestamp":"2024-03-03T07:26:32.642Z"}
+{"code":401,"message":"Unauthorized","response":{"body":{"errors":[{"field":null,"help":null,"message":"The provided authorization grant is invalid, expired, or revoked"}]},"headers":{"access-control-allow-headers":"Authorization, Content-Type, On-behalf-of, x-sg-elas-acl","access-control-allow-methods":"POST","access-control-allow-origin":"https://sendgrid.api-docs.io","access-control-max-age":"600","connection":"close","content-length":"116","content-type":"application/json","date":"Sun, 03 Mar 2024 07:26:32 GMT","server":"nginx","strict-transport-security":"max-age=600; includeSubDomains","x-no-cors-reason":"https://sendgrid.com/docs/Classroom/Basics/API/cors.html"}}}
+{"level":"error","message":[{"field":null,"help":null,"message":"The provided authorization grant is invalid, expired, or revoked"}],"timestamp":"2024-03-03T07:26:34.405Z"}
+{"code":401,"message":"Unauthorized","response":{"body":{"errors":[{"field":null,"help":null,"message":"The provided authorization grant is invalid, expired, or revoked"}]},"headers":{"access-control-allow-headers":"Authorization, Content-Type, On-behalf-of, x-sg-elas-acl","access-control-allow-methods":"POST","access-control-allow-origin":"https://sendgrid.api-docs.io","access-control-max-age":"600","connection":"close","content-length":"116","content-type":"application/json","date":"Sun, 03 Mar 2024 07:26:34 GMT","server":"nginx","strict-transport-security":"max-age=600; includeSubDomains","x-no-cors-reason":"https://sendgrid.com/docs/Classroom/Basics/API/cors.html"}}}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:27:19.536Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:27:19.569Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:27:19.599Z"}
+{"level":"info","message":{"searchUser":{"__v":0,"_id":"65e4265a255e12c4e5c625b7","address":"789 Oak Street, Village, Country","date":"2024-03-03T07:27:22.183Z","email":"gurjashandeepsingh1@gmail.com","name":"Alice Johnson","password":"$2b$10$wmzekTAPh.qj2IrXIGCV3exZZVvDlfErWjrwPhLMSRhh5cjjW1ZFG","phone":1122334455},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZTQyNjVhMjU1ZTEyYzRlNWM2MjViNyIsImlhdCI6MTcwOTQ1MDg4M30.biD2JNrwttEHhyI5cZ9UKCC7TcCETzUYiamjMpA8IAQ"},"timestamp":"2024-03-03T07:28:03.609Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:31:37.664Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:31:37.695Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:31:37.721Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:31:44.599Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:31:44.633Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:31:44.665Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:32:36.181Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:32:36.209Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:32:36.235Z"}
+{"level":"info","message":{"__v":0,"_id":"65e42794ce734c93b0e6fd2e","availability":true,"category":"Electronics","description":"High-performance smartphone with advanced features.","name":"Smartphone","price":599.99},"timestamp":"2024-03-03T07:32:36.908Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:36:31.276Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:36:31.321Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:36:31.352Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:36:43.555Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:36:43.585Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:36:43.612Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:37:47.047Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:37:47.087Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:37:47.114Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:37:58.769Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:37:58.926Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:37:58.971Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:39:40.853Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:39:40.892Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:39:40.921Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:40:43.831Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:40:43.877Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:40:43.927Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:41:13.318Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:41:13.353Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:41:13.383Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:41:27.637Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:41:27.667Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:41:27.698Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:42:55.787Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:42:55.817Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:42:55.844Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:47:59.428Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:47:59.459Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:47:59.500Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:48:08.890Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:48:08.920Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:48:08.950Z"}
+{"level":"error","timestamp":"2024-03-03T07:48:26.831Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:48:46.623Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:48:46.654Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:48:46.684Z"}
+{"level":"info","message":null,"timestamp":"2024-03-03T07:48:52.179Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:49:38.275Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:49:38.354Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:49:38.407Z"}
+{"level":"error","timestamp":"2024-03-03T07:49:41.033Z"}
+{"level":"error","timestamp":"2024-03-03T07:50:36.972Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:52:35.486Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:52:35.518Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:52:35.551Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:53:21.172Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:53:21.206Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:53:21.239Z"}
+{"level":"error","timestamp":"2024-03-03T07:53:25.692Z"}
+{"level":"error","timestamp":"2024-03-03T07:55:13.582Z"}
+{"level":"error","timestamp":"2024-03-03T07:56:47.767Z"}
+{"level":"error","timestamp":"2024-03-03T07:56:56.042Z"}
+{"level":"error","timestamp":"2024-03-03T07:57:02.099Z"}
+{"level":"error","timestamp":"2024-03-03T07:57:03.308Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:57:32.895Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:57:32.929Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:57:32.961Z"}
+{"level":"error","timestamp":"2024-03-03T07:57:35.660Z"}
+{"level":"error","timestamp":"2024-03-03T07:57:38.074Z"}
+{"level":"error","timestamp":"2024-03-03T07:57:39.084Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:57:51.624Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:57:51.657Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:57:51.692Z"}
+{"level":"error","timestamp":"2024-03-03T07:57:55.027Z"}
+{"level":"error","timestamp":"2024-03-03T07:58:01.059Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:59:22.215Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:59:22.256Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:59:22.297Z"}
+{"level":"error","timestamp":"2024-03-03T07:59:42.939Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T07:59:50.963Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T07:59:50.998Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T07:59:51.028Z"}
+{"level":"info","message":{"searchUser":{"__v":0,"_id":"65e42df966b7199570294532","address":"789 Oak Street, Village, Country","date":"2024-03-03T07:59:53.208Z","email":"gurjashandeepsingh1@gmail.com","name":"Alice Johnson","password":"$2b$10$X9b3lPIDwz9BqmY7df7Nu.IYSjxtCZdF6j.i6tSz4D.XcXTWhHP5u","phone":1122334455},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZTQyZGY5NjZiNzE5OTU3MDI5NDUzMiIsImlhdCI6MTcwOTQ1MjgwOX0.HRN5Agm86kEfMsc64qJZQPbR1WsWrH6-UF-NaQeauLw"},"timestamp":"2024-03-03T08:00:09.460Z"}
+{"level":"error","timestamp":"2024-03-03T08:01:10.852Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T08:03:08.759Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T08:03:08.794Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T08:03:08.846Z"}
+{"level":"error","timestamp":"2024-03-03T08:03:13.270Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T08:13:28.312Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T08:13:28.352Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T08:13:28.389Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T08:14:15.775Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T08:14:15.806Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T08:14:15.833Z"}
+{"level":"info","message":{"__v":0,"_id":"65e42df966b7199570294532","address":"789 Oak Street, Village, Country","date":"2024-03-03T07:59:53.208Z","email":"gurjashandeepsingh1@gmail.com","name":"Alice Johannson","password":"$2b$10$X9b3lPIDwz9BqmY7df7Nu.IYSjxtCZdF6j.i6tSz4D.XcXTWhHP5u","phone":1122334455},"timestamp":"2024-03-03T08:15:16.549Z"}
+{"level":"info","message":{"__v":0,"_id":"65e42df966b7199570294532","address":"789 Oak Street, Village, Country","date":"2024-03-03T07:59:53.208Z","email":"gurjashandeepsingh1@gmail.com","name":"Alice Johanson","password":"$2b$10$X9b3lPIDwz9BqmY7df7Nu.IYSjxtCZdF6j.i6tSz4D.XcXTWhHP5u","phone":1122334455},"timestamp":"2024-03-03T08:15:26.325Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T10:12:49.481Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T10:12:49.522Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T10:12:49.560Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T10:13:52.190Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T10:13:52.229Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T10:13:52.269Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T10:34:27.476Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T10:34:27.525Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T10:34:27.559Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-03T10:39:48.306Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-03T10:39:48.354Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-03T10:39:48.387Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-04T00:23:56.065Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-04T00:23:56.106Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-04T00:23:56.150Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-04T00:26:48.419Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-04T00:26:48.466Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-04T00:26:48.511Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-04T06:35:04.652Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-04T06:35:04.699Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-04T06:35:04.737Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-04T06:36:05.873Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-04T06:36:05.930Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-04T06:36:05.975Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-04T23:49:38.305Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-04T23:49:38.363Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-04T23:49:38.414Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-04T23:56:07.985Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-04T23:56:08.013Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-04T23:56:08.041Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-04T23:57:33.290Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-04T23:57:33.325Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-04T23:57:33.362Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-04T23:57:51.264Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-04T23:57:51.298Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-04T23:57:51.326Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-04T23:59:35.261Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-04T23:59:35.292Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-04T23:59:35.328Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T00:02:20.363Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T00:02:20.414Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T00:02:20.459Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T00:33:00.155Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T00:33:00.204Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T00:33:00.243Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T00:38:49.581Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T00:38:49.636Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T00:38:49.680Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T00:38:53.808Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T00:38:53.844Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T00:38:53.872Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T00:52:09.043Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T00:52:09.088Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T00:52:09.127Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T00:54:54.549Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T00:54:54.584Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T00:54:54.614Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T01:10:23.865Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T01:10:23.917Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T01:10:23.967Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T01:12:18.686Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T01:12:18.718Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T01:12:18.749Z"}
+{"level":"error","timestamp":"2024-03-05T01:12:49.570Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T02:04:14.381Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T02:04:14.438Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T02:04:14.490Z"}
+{"level":"error","timestamp":"2024-03-05T02:05:04.767Z"}
+{"level":"error","timestamp":"2024-03-05T02:06:00.036Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T02:08:15.642Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T02:08:15.675Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T02:08:15.731Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T02:12:04.666Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T02:12:04.695Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T02:12:04.719Z"}
+{"level":"error","timestamp":"2024-03-05T02:12:09.834Z"}
+{"level":"error","timestamp":"2024-03-05T02:12:11.498Z"}
+{"level":"error","timestamp":"2024-03-05T02:12:45.404Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T02:16:41.578Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T02:16:41.608Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T02:16:41.634Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T02:17:45.956Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T02:17:45.986Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T02:17:46.014Z"}
+{"level":"info","message":{"__v":0,"_id":"65ded18de58598ce818103ea","availability":true,"category":"Camera","description":"Entry-level DSLR camera for photography enthusiasts","name":"Canon EOS Rebel T7","price":549},"timestamp":"2024-03-05T02:17:49.840Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T02:25:48.470Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T02:25:48.530Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T02:25:48.584Z"}
+{"level":"error","timestamp":"2024-03-05T02:25:52.035Z"}
+{"level":"error","timestamp":"2024-03-05T02:30:29.187Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T02:32:20.326Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T02:32:20.358Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T02:32:20.389Z"}
+{"level":"error","timestamp":"2024-03-05T02:32:23.742Z"}
+{"level":"error","timestamp":"2024-03-05T02:35:25.934Z"}
+{"level":"error","timestamp":"2024-03-05T02:35:27.381Z"}
+{"level":"error","timestamp":"2024-03-05T02:35:28.639Z"}
+{"level":"error","timestamp":"2024-03-05T02:38:51.036Z"}
+{"level":"error","timestamp":"2024-03-05T02:38:52.219Z"}
+{"level":"error","timestamp":"2024-03-05T02:38:53.294Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T02:40:16.011Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T02:40:16.053Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T02:40:16.096Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T02:41:29.083Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T02:41:29.232Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T02:41:29.282Z"}
+{"level":"error","timestamp":"2024-03-05T02:41:31.482Z"}
+{"level":"error","timestamp":"2024-03-05T02:41:32.878Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T02:42:35.037Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T02:42:35.070Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T02:42:35.096Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T02:43:17.797Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T02:43:17.828Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T02:43:17.855Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T02:43:36.574Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T02:43:36.606Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T02:43:36.633Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T02:43:46.652Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T02:43:46.684Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T02:43:46.714Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T02:44:58.577Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T02:44:58.609Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T02:44:58.695Z"}
+{"level":"error","timestamp":"2024-03-05T02:45:01.367Z"}
+{"level":"error","timestamp":"2024-03-05T02:45:02.728Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T02:45:47.395Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T02:45:47.427Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T02:45:47.454Z"}
+{"level":"error","timestamp":"2024-03-05T02:45:49.149Z"}
+{"level":"error","timestamp":"2024-03-05T02:45:50.770Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T02:46:21.043Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T02:46:21.100Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T02:46:21.141Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T02:46:28.375Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T02:46:28.408Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T02:46:28.436Z"}
+{"level":"info","message":{"__v":0,"_id":"65ded18de58598ce818103ea","availability":true,"category":"Camera","description":"Entry-level DSLR camera for photography enthusiasts","name":"Canon EOS Rebel T7","price":549},"timestamp":"2024-03-05T02:46:31.449Z"}
+{"level":"info","message":{"__v":0,"_id":"65ded18de58598ce818103ea","availability":true,"category":"Camera","description":"Entry-level DSLR camera for photography enthusiasts","name":"Canon EOS Rebel T7","price":549},"timestamp":"2024-03-05T02:46:37.289Z"}
+{"level":"info","message":{"__v":0,"_id":"65ded18de58598ce818103ea","availability":true,"category":"Camera","description":"Entry-level DSLR camera for photography enthusiasts","name":"Canon EOS Rebel T7","price":549},"timestamp":"2024-03-05T02:46:38.524Z"}
+{"level":"info","message":{"__v":0,"_id":"65ded18de58598ce818103ea","availability":true,"category":"Camera","description":"Entry-level DSLR camera for photography enthusiasts","name":"Canon EOS Rebel T7","price":549},"timestamp":"2024-03-05T02:46:39.890Z"}
+{"level":"info","message":{"__v":0,"_id":"65ded18de58598ce818103ea","availability":true,"category":"Camera","description":"Entry-level DSLR camera for photography enthusiasts","name":"Canon EOS Rebel T7","price":549},"timestamp":"2024-03-05T02:46:41.141Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T02:48:18.700Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T02:48:18.730Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T02:48:18.759Z"}
+{"level":"info","message":"{\"_id\":\"65ded18de58598ce818103ea\",\"name\":\"Canon EOS Rebel T7\",\"price\":549,\"description\":\"Entry-level DSLR camera for photography enthusiasts\",\"category\":\"Camera\",\"availability\":true,\"__v\":0}","timestamp":"2024-03-05T02:48:20.237Z"}
+{"level":"info","message":{"__v":0,"_id":"65ded18de58598ce818103ea","availability":true,"category":"Camera","description":"Entry-level DSLR camera for photography enthusiasts","name":"Canon EOS Rebel T7","price":549},"timestamp":"2024-03-05T02:48:20.242Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T02:49:36.393Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T02:49:36.422Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T02:49:36.451Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T03:20:21.546Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T03:20:21.598Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T03:20:21.643Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T03:23:16.772Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T03:23:16.802Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T03:23:16.835Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T03:26:23.357Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T03:26:23.388Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T03:26:23.413Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T03:29:20.429Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T03:29:20.482Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T03:29:20.531Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T03:31:07.186Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T03:31:07.224Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T03:31:07.250Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T03:32:18.395Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T03:32:18.425Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T03:32:18.451Z"}
+{"level":"info","message":[{"__v":0,"_id":"65decda0832074e1c585f744","availability":true,"category":"Camera","description":"Entry-level DSLR camera with advanced autofocus","name":"Canon EOS Rebel T7i","price":60000},{"__v":0,"_id":"65decff2e3455e292841be59","availability":true,"category":"Camera","description":"Entry-level DSLR camera for photography enthusiasts","name":"Canon EOS Rebel T7","price":549},{"__v":0,"_id":"65ded18de58598ce818103ea","availability":true,"category":"Camera","description":"Entry-level DSLR camera for photography enthusiasts","name":"Canon EOS Rebel T7","price":549},{"__v":0,"_id":"65ded18de58598ce818103ef","availability":true,"category":"Camera","description":"Professional-grade mirrorless camera for photographers and videographers","name":"Canon EOS R5","price":3899},{"__v":0,"_id":"65deedb00c292d90159a2500","availability":true,"category":"Camera","description":"Entry-level DSLR camera with advanced autofocus","name":"Canon EOS Rebel T7i","price":60000}],"timestamp":"2024-03-05T03:33:23.471Z"}
+{"level":"info","message":[{"__v":0,"_id":"65decd15832074e1c585f734","availability":true,"category":"Mobile","description":"High-end smartphone with excellent camera","name":"Samsung Galaxy S21","price":65000},{"__v":0,"_id":"65decd1d832074e1c585f736","availability":true,"category":"Mobile","description":"Good Mobile 02","name":"iphone 13","price":60000},{"__v":0,"_id":"65decd4b832074e1c585f738","availability":true,"category":"Mobile","description":"Flagship smartphone with excellent camera capabilities","name":"Google Pixel 5","price":55000},{"__v":0,"_id":"65decff2e3455e292841be56","availability":true,"category":"Mobile","description":"High-end smartphone with advanced features","name":"Samsung Galaxy S21","price":799},{"__v":0,"_id":"65ded18de58598ce818103e7","availability":true,"category":"Mobile","description":"High-end smartphone with advanced features","name":"Samsung Galaxy S21","price":799},{"__v":0,"_id":"65ded18de58598ce818103f0","availability":true,"category":"Mobile","description":"Flagship smartphone with exceptional camera capabilities","name":"Google Pixel 5","price":699},{"__v":0,"_id":"65dfd4af8ddc85f207f1bde4","availability":true,"category":"Mobile","description":"High-end smartphone with advanced features","name":"Samsung Galaxy S21","price":799},{"__v":0,"_id":"65dfd4af8ddc85f207f1bde5","availability":true,"category":"Mobile","description":"Larger version of the Samsung Galaxy S21 with extended features","name":"Samsung Galaxy S21 Plus","price":899},{"__v":0,"_id":"65dfd4af8ddc85f207f1bde6","availability":true,"category":"Mobile","description":"Ultimate flagship smartphone with top-of-the-line features and capabilities","name":"Samsung Galaxy S21 Ultra","price":1199},{"__v":0,"_id":"65dfd4af8ddc85f207f1bde7","availability":true,"category":"Mobile","description":"Fan Edition of the Samsung Galaxy S20 series with premium features at a lower price point","name":"Samsung Galaxy S20 FE","price":599},{"__v":0,"_id":"65dfd4af8ddc85f207f1bde8","availability":true,"category":"Mobile","description":"Mid-range smartphone with a sleek design and impressive camera capabilities","name":"Samsung Galaxy A52","price":399},{"__v":0,"_id":"65dfd4af8ddc85f207f1bde9","availability":true,"category":"Mobile","description":"Powerful smartphone with a large display, S Pen functionality, and high-end performance","name":"Samsung Galaxy Note 20 Ultra","price":1299},{"__v":0,"_id":"65dfd4af8ddc85f207f1bdea","availability":true,"category":"Mobile","description":"Foldable smartphone with a large foldable display, innovative design, and multitasking capabilities","name":"Samsung Galaxy Z Fold 3","price":1799},{"__v":0,"_id":"65e011f4af33c02db70e3729","availability":true,"category":"Mobile","description":"High-end smartphone with advanced features","name":"Samsung Galaxy S21","price":799},{"__v":0,"_id":"65e011f4af33c02db70e372a","availability":true,"category":"Mobile","description":"Larger version of the Samsung Galaxy S21 with extended features","name":"Samsung Galaxy S21 Plus","price":899},{"__v":0,"_id":"65e011f4af33c02db70e372b","availability":true,"category":"Mobile","description":"Ultimate flagship smartphone with top-of-the-line features and capabilities","name":"Samsung Galaxy S21 Ultra","price":1199},{"__v":0,"_id":"65e011f4af33c02db70e372c","availability":true,"category":"Mobile","description":"Fan Edition of the Samsung Galaxy S20 series with premium features at a lower price point","name":"Samsung Galaxy S20 FE","price":599},{"__v":0,"_id":"65e011f4af33c02db70e372d","availability":true,"category":"Mobile","description":"Mid-range smartphone with a sleek design and impressive camera capabilities","name":"Samsung Galaxy A52","price":399},{"__v":0,"_id":"65e011f4af33c02db70e372e","availability":true,"category":"Mobile","description":"Powerful smartphone with a large display, S Pen functionality, and high-end performance","name":"Samsung Galaxy Note 20 Ultra","price":1299},{"__v":0,"_id":"65e011f4af33c02db70e372f","availability":true,"category":"Mobile","description":"Foldable smartphone with a large foldable display, innovative design, and multitasking capabilities","name":"Samsung Galaxy Z Fold 3","price":1799}],"timestamp":"2024-03-05T03:33:42.491Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T03:33:59.716Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T03:33:59.750Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T03:33:59.780Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T03:35:11.334Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T03:35:11.376Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T03:35:11.426Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T03:35:30.859Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T03:35:30.892Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T03:35:30.918Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T03:42:29.733Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T03:42:29.795Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T03:42:29.895Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T03:47:09.827Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T03:47:09.862Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T03:47:09.890Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T03:47:55.679Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T03:47:55.723Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T03:47:55.765Z"}
+{"level":"info","message":{"searchUser":{"__v":0,"_id":"65e42df966b7199570294532","address":"789 Oak Street, Village, Country","date":"2024-03-03T07:59:53.208Z","email":"gurjashandeepsingh1@gmail.com","name":"Alice Johanson","password":"$2b$10$X9b3lPIDwz9BqmY7df7Nu.IYSjxtCZdF6j.i6tSz4D.XcXTWhHP5u","phone":1122334455},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZTQyZGY5NjZiNzE5OTU3MDI5NDUzMiIsImlhdCI6MTcwOTYxMDUyMn0.5vGA4aPdtUo6Iqcn5KuO4nZaFBLe7qaUdfQrn4wSknI"},"timestamp":"2024-03-05T03:48:42.597Z"}
+{"level":"error","timestamp":"2024-03-05T03:49:34.929Z"}
+{"level":"error","timestamp":"2024-03-05T03:51:01.425Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T03:52:49.297Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T03:52:49.336Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T03:52:49.377Z"}
+{"level":"info","message":{"searchUser":{"__v":0,"_id":"65e42df966b7199570294532","address":"789 Oak Street, Village, Country","date":"2024-03-03T07:59:53.208Z","email":"gurjashandeepsingh1@gmail.com","name":"Alice Johanson","password":"$2b$10$X9b3lPIDwz9BqmY7df7Nu.IYSjxtCZdF6j.i6tSz4D.XcXTWhHP5u","phone":1122334455},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZTQyZGY5NjZiNzE5OTU3MDI5NDUzMiIsImlhdCI6MTcwOTYxMDc3Mn0.5WS0ZwrO8Slr73lurquEx4vNa6dHk5zlkVzcBpcYFxw"},"timestamp":"2024-03-05T03:52:52.804Z"}
+{"level":"error","timestamp":"2024-03-05T03:53:31.155Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T03:54:30.894Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T03:54:30.931Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T03:54:30.977Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T03:54:37.624Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T03:54:37.684Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T03:54:37.732Z"}
+{"level":"error","timestamp":"2024-03-05T03:54:40.923Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T03:55:05.575Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T03:55:05.637Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T03:55:05.698Z"}
+{"level":"info","message":null,"timestamp":"2024-03-05T03:55:08.642Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T03:59:09.341Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T03:59:09.374Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T03:59:09.414Z"}
+{"level":"info","message":null,"timestamp":"2024-03-05T03:59:13.235Z"}
+{"level":"info","message":{"__v":0,"_id":"65e6989734ecdadcea0b26e5","createdAt":"2024-03-05T03:59:19.289Z","isActive":true,"items":[{"_id":"65e6989734ecdadcea0b26e8","productId":"65ded18de58598ce818103ec","quantity":2}],"userId":"65e42df966b7199570294532"},"timestamp":"2024-03-05T03:59:24.610Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T04:13:26.074Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T04:13:26.114Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T04:13:26.158Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T04:24:29.684Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T04:24:29.731Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T04:24:29.778Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T04:26:41.142Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T04:26:41.174Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T04:26:41.203Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T04:31:15.015Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T04:31:15.049Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T04:31:15.078Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T04:34:20.682Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T04:34:20.713Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T04:34:20.739Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T04:38:21.867Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T04:38:21.935Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T04:38:22.011Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T04:39:22.417Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T04:39:22.457Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T04:39:22.486Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T04:41:00.454Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T04:41:00.497Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T04:41:00.532Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T04:45:25.161Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T04:45:25.202Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T04:45:25.233Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T04:48:23.824Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T04:48:23.855Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T04:48:23.886Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T04:48:37.617Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T04:48:37.650Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T04:48:37.681Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T04:50:14.925Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T04:50:14.960Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T04:50:14.998Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T04:50:28.416Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T04:50:28.461Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T04:50:28.523Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T04:53:27.884Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T04:53:27.916Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T04:53:27.946Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T04:54:55.019Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T04:54:55.049Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T04:54:55.074Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T04:55:26.558Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T04:55:26.591Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T04:55:26.620Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T04:56:57.773Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T04:56:57.805Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T04:56:57.834Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T05:06:47.501Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T05:06:47.551Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T05:06:47.593Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T05:07:24.378Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T05:07:24.416Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T05:07:24.441Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T05:11:34.505Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T05:11:34.556Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T05:11:34.595Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T05:12:13.163Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T05:12:13.197Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T05:12:13.228Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T05:12:44.986Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T05:12:45.020Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T05:12:45.064Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T05:17:05.120Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T05:17:05.154Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T05:17:05.182Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T05:19:01.068Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T05:19:01.104Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T05:19:01.160Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T05:20:37.853Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T05:20:37.882Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T05:20:37.910Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T05:30:49.127Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T05:30:49.168Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T05:30:49.206Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T05:31:31.747Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T05:31:31.798Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T05:31:31.853Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T05:32:13.573Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T05:32:13.611Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T05:32:13.665Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T05:33:15.977Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T05:33:16.023Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T05:33:16.072Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T05:34:23.297Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T05:34:23.330Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T05:34:23.358Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T05:34:32.950Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T05:34:32.990Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T05:34:33.028Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T05:34:48.338Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T05:34:48.392Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T05:34:48.442Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T06:02:48.684Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T06:02:48.719Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T06:02:48.747Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T06:03:07.977Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T06:03:08.008Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T06:03:08.037Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T06:03:57.574Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T06:03:57.605Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T06:03:57.629Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-05T06:04:51.872Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-05T06:04:51.910Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-05T06:04:51.939Z"}
+{"level":"info","message":{"__v":0,"_id":"65e6b6e0ab37c7942bc18aba","createdAt":"2024-03-05T06:08:32.481Z","isActive":true,"items":[{"_id":"65e6b6e0ab37c7942bc18abd","productId":"65ded18de58598ce818103ec","quantity":2}],"userId":"65e42df966b7199570294532"},"timestamp":"2024-03-05T06:08:50.432Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T01:55:43.201Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T01:55:43.246Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T01:55:43.276Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T01:56:05.581Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T01:56:05.613Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T01:56:05.642Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T01:56:34.498Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T01:56:34.531Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T01:56:34.565Z"}
+{"level":"info","message":{"searchUser":{"__v":0,"_id":"65e7f17c877feb4087f6c07e","address":"789 Oak Street, Village, Country","date":"2024-03-06T04:30:52.066Z","email":"gurjashandeepsingh1@gmail.com","name":"Alice Johnson","password":"$2b$10$QTe/13wzUoPqJpZvp7rJe.jYXLYmAyO4zvycgS9HzvrJFbHkic.X6","phone":1122334455},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZTdmMTdjODc3ZmViNDA4N2Y2YzA3ZSIsImlhdCI6MTcwOTY5OTQ2Mn0.LvEzkhvqxEpiYq4SBLeXBpr1vn3e9k35TN8X6KF1Eq0"},"timestamp":"2024-03-06T04:31:02.441Z"}
+{"level":"info","message":{"__v":0,"_id":"65e7f1a4877feb4087f6c081","createdAt":"2024-03-06T04:31:32.355Z","isActive":true,"items":[{"_id":"65e7f1a4877feb4087f6c084","productId":"65ded18de58598ce818103ec","quantity":2}],"userId":"65e7f17c877feb4087f6c07e"},"timestamp":"2024-03-06T04:32:38.861Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T04:39:31.184Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T04:39:31.258Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T04:39:31.315Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T04:50:47.000Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T04:50:47.043Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T04:50:47.079Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T04:52:25.183Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T04:52:25.214Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T04:52:25.241Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T05:06:10.367Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T05:06:10.412Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T05:06:10.457Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T05:08:39.874Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T05:08:39.907Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T05:08:39.941Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T05:10:34.844Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T05:10:34.881Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T05:10:34.915Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T05:11:01.873Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T05:11:01.919Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T05:11:01.952Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T05:11:51.468Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T05:11:51.501Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T05:11:51.534Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T05:13:05.585Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T05:13:05.634Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T05:13:05.683Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T05:14:05.871Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T05:14:06.087Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T05:14:06.147Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T05:14:27.711Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T05:14:27.786Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T05:14:27.857Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T05:15:09.693Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T05:15:09.776Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T05:15:09.853Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T05:15:38.171Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T05:15:38.212Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T05:15:38.253Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T05:15:44.442Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T05:15:44.495Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T05:15:44.540Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T05:16:20.621Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T05:16:20.660Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T05:16:20.709Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T05:17:08.353Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T05:17:08.424Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T05:17:08.488Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T05:17:28.755Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T05:17:28.793Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T05:17:28.836Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T05:19:20.534Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T05:19:20.590Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T05:19:20.633Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T05:20:17.097Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T05:20:17.151Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T05:20:17.198Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T05:20:59.782Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T05:20:59.828Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T05:20:59.934Z"}
+{"level":"info","message":"Redis Connected","timestamp":"2024-03-06T05:21:02.043Z"}
+{"level":"info","message":"Server Running at Port 9000","timestamp":"2024-03-06T05:21:02.088Z"}
+{"level":"info","message":"Database Connected","timestamp":"2024-03-06T05:21:02.123Z"}
+{"level":"info","message":{"findUser":{"__v":0,"_id":"65e7f17c877feb4087f6c07e","address":"789 Oak Street, Village, Country","date":"2024-03-06T04:30:52.066Z","email":"gurjashandeepsingh1@gmail.com","name":"Alice Johnson","password":"$2b$10$QTe/13wzUoPqJpZvp7rJe.jYXLYmAyO4zvycgS9HzvrJFbHkic.X6","phone":1122334455},"orders":[{"__v":0,"_id":"65e7f292877feb4087f6c08f","amount":2598,"createdAt":"2024-03-06T04:35:30.757Z","items":[{"_id":"65e7f1a4877feb4087f6c084","productId":"65ded18de58598ce818103ec","quantity":2}],"paymentInfo":"23er","shippingAddress":"23er","status":"pending","userId":"65e7f17c877feb4087f6c07e"},{"__v":0,"_id":"65e7f3a2bc0019b78bfc0adb","amount":2598,"createdAt":"2024-03-06T04:40:02.140Z","items":[{"_id":"65e7f398bc0019b78bfc0ad6","productId":"65ded18de58598ce818103ec","quantity":2}],"paymentInfo":"23er","shippingAddress":"23er","status":"Success [Amex Credit Card]","userId":"65e7f17c877feb4087f6c07e"},{"__v":0,"_id":"65e7f9e5ff0a63c0ae68b825","amount":2598,"createdAt":"2024-03-06T05:06:45.976Z","items":[{"_id":"65e7f9d2ff0a63c0ae68b81f","productId":"65ded18de58598ce818103ec","quantity":2}],"paymentInfo":"23er","shippingAddress":"23er","status":"Success [Amex Credit Card]","userId":"65e7f17c877feb4087f6c07e"},{"__v":0,"_id":"65e7fc6c9ad25e26996d82cc","amount":2340.2,"createdAt":"2024-03-06T05:17:32.830Z","items":[{"_id":"65e7fa60bd1f858113e74dd9","productId":"65ded18de58598ce818103ec","quantity":2}],"paymentInfo":"23er","shippingAddress":"23er","status":"Success [Amex Credit Card]","userId":"65e7f17c877feb4087f6c07e"}]},"timestamp":"2024-03-06T05:22:11.372Z"}
+{"level":"info","message":[{"__v":0,"_id":"65decd15832074e1c585f734","availability":true,"category":"Mobile","description":"High-end smartphone with excellent camera","name":"Samsung Galaxy S21","price":65000},{"__v":0,"_id":"65decd1d832074e1c585f736","availability":true,"category":"Mobile","description":"Good Mobile 02","name":"iphone 13","price":60000},{"__v":0,"_id":"65decd4b832074e1c585f738","availability":true,"category":"Mobile","description":"Flagship smartphone with excellent camera capabilities","name":"Google Pixel 5","price":55000},{"__v":0,"_id":"65decff2e3455e292841be56","availability":true,"category":"Mobile","description":"High-end smartphone with advanced features","name":"Samsung Galaxy S21","price":799},{"__v":0,"_id":"65ded18de58598ce818103e7","availability":true,"category":"Mobile","description":"High-end smartphone with advanced features","name":"Samsung Galaxy S21","price":799},{"__v":0,"_id":"65ded18de58598ce818103f0","availability":true,"category":"Mobile","description":"Flagship smartphone with exceptional camera capabilities","name":"Google Pixel 5","price":699},{"__v":0,"_id":"65dfd4af8ddc85f207f1bde4","availability":true,"category":"Mobile","description":"High-end smartphone with advanced features","name":"Samsung Galaxy S21","price":799},{"__v":0,"_id":"65dfd4af8ddc85f207f1bde5","availability":true,"category":"Mobile","description":"Larger version of the Samsung Galaxy S21 with extended features","name":"Samsung Galaxy S21 Plus","price":899},{"__v":0,"_id":"65dfd4af8ddc85f207f1bde6","availability":true,"category":"Mobile","description":"Ultimate flagship smartphone with top-of-the-line features and capabilities","name":"Samsung Galaxy S21 Ultra","price":1199},{"__v":0,"_id":"65dfd4af8ddc85f207f1bde7","availability":true,"category":"Mobile","description":"Fan Edition of the Samsung Galaxy S20 series with premium features at a lower price point","name":"Samsung Galaxy S20 FE","price":599},{"__v":0,"_id":"65dfd4af8ddc85f207f1bde8","availability":true,"category":"Mobile","description":"Mid-range smartphone with a sleek design and impressive camera capabilities","name":"Samsung Galaxy A52","price":399},{"__v":0,"_id":"65dfd4af8ddc85f207f1bde9","availability":true,"category":"Mobile","description":"Powerful smartphone with a large display, S Pen functionality, and high-end performance","name":"Samsung Galaxy Note 20 Ultra","price":1299},{"__v":0,"_id":"65dfd4af8ddc85f207f1bdea","availability":true,"category":"Mobile","description":"Foldable smartphone with a large foldable display, innovative design, and multitasking capabilities","name":"Samsung Galaxy Z Fold 3","price":1799},{"__v":0,"_id":"65e011f4af33c02db70e3729","availability":true,"category":"Mobile","description":"High-end smartphone with advanced features","name":"Samsung Galaxy S21","price":799},{"__v":0,"_id":"65e011f4af33c02db70e372a","availability":true,"category":"Mobile","description":"Larger version of the Samsung Galaxy S21 with extended features","name":"Samsung Galaxy S21 Plus","price":899},{"__v":0,"_id":"65e011f4af33c02db70e372b","availability":true,"category":"Mobile","description":"Ultimate flagship smartphone with top-of-the-line features and capabilities","name":"Samsung Galaxy S21 Ultra","price":1199},{"__v":0,"_id":"65e011f4af33c02db70e372c","availability":true,"category":"Mobile","description":"Fan Edition of the Samsung Galaxy S20 series with premium features at a lower price point","name":"Samsung Galaxy S20 FE","price":599},{"__v":0,"_id":"65e011f4af33c02db70e372d","availability":true,"category":"Mobile","description":"Mid-range smartphone with a sleek design and impressive camera capabilities","name":"Samsung Galaxy A52","price":399},{"__v":0,"_id":"65e011f4af33c02db70e372e","availability":true,"category":"Mobile","description":"Powerful smartphone with a large display, S Pen functionality, and high-end performance","name":"Samsung Galaxy Note 20 Ultra","price":1299},{"__v":0,"_id":"65e011f4af33c02db70e372f","availability":true,"category":"Mobile","description":"Foldable smartphone with a large foldable display, innovative design, and multitasking capabilities","name":"Samsung Galaxy Z Fold 3","price":1799}],"timestamp":"2024-03-06T05:22:47.390Z"}
+{"level":"info","message":[],"timestamp":"2024-03-06T05:22:55.461Z"}
+{"level":"info","message":[{"__v":0,"_id":"65decd0e832074e1c585f732","availability":true,"category":"Laptop","description":"Lightweight and powerful laptop for everyday use","name":"Macbook Air","price":85000},{"__v":0,"_id":"65decd51832074e1c585f73a","availability":true,"category":"Laptop","description":"Convertible laptop with touchscreen display","name":"HP Pavilion x360","price":60000},{"__v":0,"_id":"65decff2e3455e292841be57","availability":true,"category":"Laptop","description":"Powerful laptop for professional use","name":"Apple MacBook Pro","price":1999},{"__v":0,"_id":"65ded18de58598ce818103e8","availability":true,"category":"Laptop","description":"Powerful laptop for professional use","name":"Apple MacBook Pro","price":1999},{"__v":0,"_id":"65ded18de58598ce818103ec","availability":true,"category":"Laptop","description":"Ultra-portable laptop with stunning display","name":"Dell XPS 13","price":1299},{"__v":0,"_id":"65ded18de58598ce818103f1","availability":true,"category":"Laptop","description":"Versatile 2-in-1 laptop with touchscreen and stylus support","name":"Microsoft Surface Pro 7","price":899},{"__v":0,"_id":"65ded18de58598ce818103f7","availability":true,"category":"Laptop","description":"Gaming laptop with powerful hardware and sleek design","name":"Razer Blade 15","price":1599},{"__v":0,"_id":"65ded18de58598ce81810403","availability":true,"category":"Laptop","description":"Business laptop with durable design and long battery life","name":"Lenovo ThinkPad X1 Carbon","price":1499}],"timestamp":"2024-03-06T05:23:03.583Z"}

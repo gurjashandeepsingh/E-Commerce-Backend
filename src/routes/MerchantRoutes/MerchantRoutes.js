@@ -1,4 +1,4 @@
-import express, { response } from "express";
+import express, { request, response } from "express";
 const router = express.Router();
 import { validationResult, body } from "express-validator";
 import { MerchantService } from "../../service/MerchantServices/MerchantServices.js";
@@ -227,6 +227,65 @@ router.post(
     } catch (error) {
       logger.error(error);
       response.status(400).send(error);
+    }
+  }
+);
+
+const couponValidation = [
+  body("name").notEmpty().withMessage("Please provide coupon code"),
+  body("discountPercentage")
+    .notEmpty()
+    .withMessage("Please provide coupon discount"),
+  body("validFrom").notEmpty().withMessage("Please provide valid from date"),
+  body("validTo").notEmpty().withMessage("Please provide valid to date"),
+];
+router.post(
+  "/addCoupon",
+  new AuthMiddleware().auth,
+  couponValidation,
+  async (request, response) => {
+    const validationError = validationResult(request);
+    if (!validationError.isEmpty()) {
+      throw new Error("Provide full details for product to update");
+    }
+    try {
+      const { name, discountPercentage, validFrom, validTo } = request.body;
+      const couponInstance = await new MerchantService();
+      const result = await couponInstance.createCoupon(
+        name,
+        discountPercentage,
+        validFrom,
+        validTo
+      );
+      response.status(200).json(result);
+    } catch (error) {
+      logger.error(error);
+      response.status(400).send(error);
+    }
+  }
+);
+
+const prorductDetailsValidation = [
+  body("productId").notEmpty().withMessage("Provide product Id"),
+];
+router.post(
+  "/getProductDetailMerchant",
+  new AuthMiddleware().auth,
+  prorductDetailsValidation,
+  async (request, response) => {
+    const validationError = validationResult(request);
+    if (!validationError.isEmpty()) {
+      throw new Error("Product product ID");
+    }
+    try {
+      const { productId } = request.body;
+      const productInstance = await new MerchantService();
+      const result = await productInstance.productDetailsMerchant(productId);
+      response.status(200).send(result);
+      logger.info(result);
+    } catch (error) {
+      response.status(400).send(error);
+      logger.error(error);
     }
   }
 );

@@ -7,13 +7,13 @@
 	},
 	"item": [
 		{
-			"name": "AddProduct",
+			"name": "RegistrationCustomer",
 			"request": {
 				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Canon EOS Rebel T7i\",\r\n    \"price\": 60000,\r\n    \"category\": \"Camera\",\r\n    \"description\": \"Entry-level DSLR camera with advanced autofocus\",\r\n    \"availability\": true\r\n}\r\n",
+					"raw": "{\r\n    \"name\": \"Alice Johnson\",\r\n    \"email\": \"gurjasahndeepsingh1@gmail.com\",\r\n    \"password\": \"password\",\r\n    \"confirmPassword\": \"password\",\r\n    \"phone\": \"+1122334455\",\r\n    \"address\": \"789 Oak Street, Village, Country\"\r\n  }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -21,13 +21,115 @@
 					}
 				},
 				"url": {
-					"raw": "{{local9000}}/merchantRoutes/addProduct",
+					"raw": "localhost:9000/loginOrRegister/registerUser",
 					"host": [
-						"{{local9000}}"
+						"localhost"
 					],
+					"port": "9000",
 					"path": [
-						"merchantRoutes",
-						"addProduct"
+						"loginOrRegister",
+						"registerUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LoginCustomer",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "addToCart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZDliNmExYjIyNzg4ODFiMTU1YmJlYyIsImlhdCI6MTcwODgzNTI5OX0.qPBJsJvKe1YaAPEtsiNhMZtniJ6jZVPkRw8PuoG0Koc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"product\" : {\r\n        \"id\": \"65dac23da61e140e1eb19e6a\",\r\n        \"quantity\": -1\r\n    },\r\n    \"cartId\": \"65dad26ddf0b0e516d0a4874\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/customerService/addToCart",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"customerService",
+						"addToCart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Active Cart",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZDliNmExYjIyNzg4ODFiMTU1YmJlYyIsImlhdCI6MTcwODgzNTI5OX0.qPBJsJvKe1YaAPEtsiNhMZtniJ6jZVPkRw8PuoG0Koc"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "localhost:4000/customerService/getActiveCart",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"customerService",
+						"getActiveCart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ProductDetail",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\": \"65ded18de58598ce818103ea\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9000/customerService/getProductDetail",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"customerService",
+						"getProductDetail"
 					]
 				}
 			},
@@ -95,33 +197,10 @@
 			"response": []
 		},
 		{
-			"name": "ProductDetail",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
+			"name": "updateUser",
 			"request": {
 				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"productId\": \"65ded18de58598ce818103ea\"\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "localhost:9000/customerService/getProductDetail",
-					"host": [
-						"localhost"
-					],
-					"port": "9000",
-					"path": [
-						"customerService",
-						"getProductDetail"
-					]
-				}
+				"header": []
 			},
 			"response": []
 		},
@@ -160,35 +239,7 @@
 			"response": []
 		},
 		{
-			"name": "RegistrationCustomer",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\"email\": \"test1@gmail.com\",\r\n\"password\": \"test1@gmail.com\",\r\n\"confirmPassword\": \"test1@gmail.com\",\r\n\"name\": \"testUser01\",\r\n\"address\": \"testUser01address\",\r\n\"phone\": \"162784625\"}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "localhost:4000/loginOrRegister/registerUser",
-					"host": [
-						"localhost"
-					],
-					"port": "4000",
-					"path": [
-						"loginOrRegister",
-						"registerUser"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "LoginCustomer",
+			"name": "OrderDetails",
 			"request": {
 				"method": "GET",
 				"header": []
@@ -196,47 +247,22 @@
 			"response": []
 		},
 		{
-			"name": "Get Active Cart",
+			"name": "AllOrders",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [
 					{
 						"key": "token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZDliNmExYjIyNzg4ODFiMTU1YmJlYyIsImlhdCI6MTcwODgzNTI5OX0.qPBJsJvKe1YaAPEtsiNhMZtniJ6jZVPkRw8PuoG0Koc"
-					},
-					{
-						"key": "Content-Type",
-						"value": "application/json"
-					}
-				],
-				"url": {
-					"raw": "localhost:4000/customerService/getActiveCart",
-					"host": [
-						"localhost"
-					],
-					"port": "4000",
-					"path": [
-						"customerService",
-						"getActiveCart"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "addToCart",
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZDliNmExYjIyNzg4ODFiMTU1YmJlYyIsImlhdCI6MTcwODgzNTI5OX0.qPBJsJvKe1YaAPEtsiNhMZtniJ6jZVPkRw8PuoG0Koc",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZTQyZGY5NjZiNzE5OTU3MDI5NDUzMiIsImlhdCI6MTcwOTYxMDc3Mn0.5WS0ZwrO8Slr73lurquEx4vNa6dHk5zlkVzcBpcYFxw",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"product\" : {\r\n        \"id\": \"65dac23da61e140e1eb19e6a\",\r\n        \"quantity\": -1\r\n    },\r\n    \"cartId\": \"65dad26ddf0b0e516d0a4874\"\r\n}",
+					"raw": "{\r\n    \"userId\": \"65e42df966b7199570294532\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -244,14 +270,80 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:4000/customerService/addToCart",
+					"raw": "localhost:9000/customerService/allOrders",
 					"host": [
 						"localhost"
 					],
-					"port": "4000",
+					"port": "9000",
 					"path": [
 						"customerService",
-						"addToCart"
+						"allOrders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UserDashboard",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "SearchProduct",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"searchString\": \"Mobile\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9000/customerService/searchProduct",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"customerService",
+						"searchProduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddProduct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Canon EOS Rebel T7i\",\r\n    \"price\": 60000,\r\n    \"category\": \"Camera\",\r\n    \"description\": \"Entry-level DSLR camera with advanced autofocus\",\r\n    \"availability\": true\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local9000}}/merchantRoutes/addProduct",
+					"host": [
+						"{{local9000}}"
+					],
+					"path": [
+						"merchantRoutes",
+						"addProduct"
 					]
 				}
 			},
@@ -339,7 +431,7 @@
 			"response": []
 		},
 		{
-			"name": "updateUser",
+			"name": "registerMerchant",
 			"request": {
 				"method": "GET",
 				"header": []
@@ -347,7 +439,15 @@
 			"response": []
 		},
 		{
-			"name": "registerMerchant",
+			"name": "addCoupon",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "ProductDetailMerchant",
 			"request": {
 				"method": "GET",
 				"header": []

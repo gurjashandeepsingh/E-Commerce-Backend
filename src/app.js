@@ -4,7 +4,13 @@ import mongoose from "mongoose";
 import bodyParser from "body-parser";
 import express from "express";
 import { logger } from "../winstonLogger.js";
+import { Redis } from "ioredis";
 const app = express();
+export const redis = new Redis({ host: "127.0.0.1", port: 6379 });
+
+if (redis) {
+  logger.info("Redis Connected");
+}
 
 // All File Imports
 import { LoginRegistrationRoute } from "./routes/AuthenticationRoutes/LoginAndRegistrationRoute.js";
@@ -35,6 +41,16 @@ function databaseConnection() {
     });
 }
 
+// Redis Configuration
+// function redisConfigration() {
+//   redisClient.on("connect", () => {
+//     logger.info("Redis Client connected");
+//   });
+//   redisClient.on("error", (error) => {
+//     logger.error(error);
+//   });
+// }
+
 // Server Run
 function runServer(port) {
   app.listen(process.env.PORT, (request, response) => {
@@ -42,9 +58,14 @@ function runServer(port) {
   });
 }
 
+// app.get("/logs", (request, response) => {
+//   response.send(logger.log);
+// });
+
 function startup() {
   databaseConnection();
   runServer();
+  // redisConfigration();
 }
 
 startup();

@@ -4,6 +4,7 @@ import { validationResult, body } from "express-validator";
 import { CustomerService } from "../../service/CustomerServices/CustomerServices.js";
 import { AuthMiddleware } from "../../middlewares/auth.js";
 import { logger } from "../../../winstonLogger.js";
+import { CouponService } from "../../service/CouponService/CouponServices.js";
 
 // Category Listing
 // An API endpoint that retrieves a list of categories
@@ -65,6 +66,7 @@ router.get(
       const result = await productDetailInstance.productDetails(productId);
       response.status(200).send(result);
     } catch (error) {
+      console.log(error);
       response.status(400).send(error);
     }
   }
@@ -122,14 +124,15 @@ router.post(
       });
     }
     try {
-      const { cartId, shippingAddress, paymentInfo } = request.body;
+      const { cartId, shippingAddress, paymentInfo, couponName } = request.body;
       const { id } = request.user;
       const orderPlacementInstance = new CustomerService();
       const result = await orderPlacementInstance.orderPlacement(
         cartId,
         shippingAddress,
         paymentInfo,
-        id
+        id,
+        couponName
       );
       response.status(200).send(result);
     } catch (error) {
@@ -173,9 +176,41 @@ router.get(
     }
     try {
       const { orderId } = request.body;
-      const { id } = request.user;
-      const orderHistoryInstance = new CustomerService();
-      const result = await orderHistoryInstance.orderDetails(orderId, id);
+      const orderHistoryInstance = await new CustomerService();
+      const result = await orderHistoryInstance.orderDetails(orderId);
+      response.status(200).send(result);
+    } catch (error) {
+      response.status(400).send(error);
+    }
+  }
+);
+
+/**
+ * This code snippet represents a route handler for the "/allOrders" endpoint.
+ * It is responsible for retrieving all orders for a specific user.
+ * @param {Object} request - The request object.
+ * @param {Object} response - The response object.
+ * @returns {Object} - The result of the orderHistory method of the CustomerService class.
+ * @throws {Error} - If there is a validation error or an error occurs during the orderHistory method.
+ */
+const allOrdersValidation = [
+  body("userId").notEmpty().withMessage("Please provide UserID"),
+];
+router.get(
+  "/allOrders",
+  new AuthMiddleware().auth,
+  allOrdersValidation,
+  async (request, response) => {
+    const validationError = validationResult(request);
+    if (!validationError.isEmpty()) {
+      return response.status(400).json({
+        errors: validationError.array(),
+      });
+    }
+    try {
+      const { userId } = request.body;
+      const allOrdersInstance = await new CustomerService();
+      const result = await allOrdersInstance.orderHistory(userId);
       response.status(200).send(result);
     } catch (error) {
       response.status(400).send(error);
@@ -194,14 +229,22 @@ router.get(
       const orderHistoryInstance = new CustomerService();
       const result = await orderHistoryInstance.getActiveCart(id);
       logger.info(result);
-      response.status(200).send(result);
+      return response.status(200).send(result);
     } catch (error) {
+      console.log(error);
       logger.error(error);
       response.status(400).send(error);
     }
   }
 );
 
+/**
+ * This code snippet represents a route handler for updating a user's information.
+ * @param {Object} request - The request object.
+ * @param {Object} response - The response object.
+ * @returns {Promise} - A promise that resolves to the updated user information.
+ * @throws {Error} - If the required parameters are not provided.
+ */
 const updateUserValidation = [
   body("userId").notEmpty().withMessage("Provide User"),
   body("fieldName").notEmpty().withMessage("Provide Field Name"),
@@ -229,6 +272,51 @@ router.post(
     } catch (error) {
       logger.error(error);
       response.status(400).send(error);
+    }
+  }
+);
+
+/**
+ * Retrieves a list of products based on a search string.
+ * @param {Object} request - The request object.
+ * @param {Object} response - The response object.
+ * @returns {Promise} - A promise that resolves to the search results.
+ * @throws {Error} - If there is an error retrieving the search results.
+ */
+router.get("/searchProduct", async (request, response) => {
+  try {
+    const { searchString } = request.body;
+    const searchProductInstance = await new CustomerService();
+    const result = await searchProductInstance.searchProducts(searchString);
+    response.status(200).send(result);
+    logger.info(result);
+  } catch (error) {
+    response.status(400).send(error);
+    logger.error(error);
+  }
+});
+
+const userDashboardValidation = [
+  body("userId").notEmpty().withMessage("Please provide User ID"),
+];
+router.get(
+  "/userDashboard",
+  new AuthMiddleware().auth,
+  userDashboardValidation,
+  async (request, response) => {
+    try {
+      const validationError = validationResult(request);
+      if (!validationError.isEmpty()) {
+        throw new Error("Please provide  valid inputs!");
+      }
+      const { userId } = request.body;
+      const userDashboardInstance = await new CustomerService();
+      const result = await userDashboardInstance.userDashboard(userId);
+      response.status(200).send(result);
+      logger.info(result);
+    } catch (error) {
+      response.status(400).send(error);
+      logger.error(error);
     }
   }
 );

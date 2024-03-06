@@ -2,7 +2,10 @@ import { cart } from "../../models/cart/cartModel.js";
 import { user } from "../../models/user/userModel.js";
 import { order } from "../../models/orders/orderModel.js";
 import { Product } from "../../models/product/productModel.js";
-import { EmailServices } from "./EmailService.js";
+import { redis } from "../../app.js";
+import { CouponService } from "../CouponService/CouponServices.js";
+// import { client } from "../../app.js";
+// import { redisClient } from "../../app.js";
 
 // ## Summary
 // The `CustomerService` class provides various methods for managing categories, products, and orders in an e-commerce system. It allows users to retrieve category listings, product listings, product details, add items to the cart, place orders, view order history, and get order details.
@@ -50,18 +53,27 @@ class CustomerService {
     return productData;
   }
 
-  // Product Details
-  // - `productDetails(productId)`: Retrieves the details of a specific product.
-  // const productDetails = await customerService.productDetails('123');
-  // console.log(productDetails);
-  // // Output: { title: 'product1', id: '123', category: 'category1', price: 10, description: '...', availability: true }
-
+  /**
+   * Retrieves the details of a specific product.
+   * @param {string} productId - The ID of the product to retrieve details for.
+   * @returns {Promise<object>} - The details of the product.
+   */
   async productDetails(productId) {
-    const productInformation = await Product.findOne({ _id: productId });
-    if (!productInformation) {
-      throw new Error("No details found.");
+    // let product;
+    const cachedData = await redis.get(productId);
+    console.log(typeof cachedData);
+    console.log(cachedData);
+    if (cachedData) {
+      return JSON.parse(cachedData);
+    } else {
+      const productInformation = await Product.findOne({ _id: productId });
+      if (productInformation) {
+        const productInfo = JSON.stringify(productInformation);
+        await redis.set(productId, productInfo);
+      }
+      return productInformation;
     }
-    return productInformation;
+    return product;
   }
 
   // Order Placement
@@ -70,7 +82,13 @@ class CustomerService {
   // console.log(newOrder);
   // // Output: new order object
 
-  async orderPlacement(cartId, shippingAddress, paymentInfo, userId) {
+  async orderPlacement(
+    cartId,
+    shippingAddress,
+    paymentInfo,
+    userId,
+    couponName
+  ) {
     const findCart = await cart.findOne({
       _id: cartId,
       isActive: true,
@@ -94,12 +112,17 @@ class CustomerService {
         amount += productsObj[item.productId].price * item.quantity;
       }
     });
+    if (couponName) {
+      const couponServiceInstance = await new CouponService();
+      amount = await couponServiceInstance.discountAmount(amount, couponName);
+    }
     const newOrder = new order({
       amount,
       items: findCart.items,
       userId,
       shippingAddress: shippingAddress,
       paymentInfo: paymentInfo,
+      status: "Success [Amex Credit Card]",
     });
     findCart.isActive = false;
     findCart.save();
@@ -107,17 +130,16 @@ class CustomerService {
     return newOrder;
   }
 
-  // // Get order history
-  // - `orderHistory(userId)`: Retrieves the order history of a user.
-  // const orderHistory = await customerService.orderHistory('456');
-  // console.log(orderHistory);
-  // // Output: array of order objects
+  /**
+   * Retrieves all order History for a specific user.
+   * @param {string} userId - The ID of the user.
+   * @returns {Promise<Array>} - An array of order objects.
+   * @throws {Error} - If no orders are found for the user.
+   */
   async orderHistory(userId) {
-    const orderHistoryOfUser = await order.findAll({ userId });
-    if (!orderHistoryOfUser) {
-      throw new Error("No order history");
-    }
-    return orderHistoryOfUser;
+    const checkOrders = await order.find({ userId });
+    if (!checkOrders) throw new Error("Not found");
+    return checkOrders;
   }
 
   // Order Details
@@ -125,9 +147,10 @@ class CustomerService {
   // const orderDetails = await customerService.orderDetails('789', '456');
   // console.log(orderDetails);
   // // Output: order details object
-  async orderDetails(orderId, userId) {
-    const orderResult = await order.findOne({ orderId, userId });
-    return orderResult;
+  async orderDetails(orderId) {
+    const orderFound = await order.findOne({ _id: orderId });
+    if (!orderFound) throw new NotFoundError();
+    return orderFound;
   }
 
   // Add Item to Cart
@@ -167,7 +190,7 @@ class CustomerService {
     return cartToAddTo;
   }
 
-  async getActiveCart(userId, fieldName, fieldValue) {
+  async getActiveCart(userId) {
     return await cart.findOne({ userId, isActive: true });
   }
 
@@ -192,6 +215,31 @@ class CustomerService {
       throw new Error("Cannot update User");
     }
     return updateUser;
+  }
+
+  /**
+   * Searches for products based on a given search string.
+   * @param {string} searchString - The search string to match against product names, descriptions, and categories.
+   * @returns {Promise<Array>} - An array of products that match the search criteria.
+   */
+  async searchProducts(searchString) {
+    const products = await Product.find({
+      $or: [
+        { name: { $regex: searchString, $options: "i" } }, // Case-insensitive search by name
+        { description: { $regex: searchString, $options: "i" } }, // Case-insensitive search by description
+        { category: { $regex: searchString, $options: "i" } }, // Case-insensitive search by category
+      ],
+    });
+    return products;
+  }
+
+  async userDashboard(userId) {
+    const findUser = await user.findOne({ _id: userId });
+    if (!findUser) {
+      throw new Error("User not Found");
+    }
+    const orders = await this.orderHistory(userId);
+    return { findUser, orders };
   }
 }
 

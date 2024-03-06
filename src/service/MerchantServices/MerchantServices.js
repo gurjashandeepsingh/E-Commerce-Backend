@@ -1,8 +1,11 @@
+import { Coupon } from "../../models/Coupon/couponModel.js";
 import { Product } from "../../models/product/productModel.js";
 import { Merchant } from "../../models/merchant/merchantModel.js";
 import { order } from "../../models/orders/orderModel.js";
 import { JwtToken } from "../AuthenticationServices/jwtAuthentication.js";
 import bcrypt from "bcrypt";
+import { logger } from "../../../winstonLogger.js";
+import { redis } from "../../app.js";
 
 /**
  * The MerchantService class provides methods for managing products in a merchant's inventory.
@@ -144,6 +147,47 @@ class MerchantService {
       throw new Error("Cannot update Product");
     }
     return updatedProduct;
+  }
+
+  async productDetailsMerchant(productId) {
+    // let product;
+    const cachedData = await redis.get(productId);
+    logger.info(cachedData);
+    if (cachedData) {
+      return JSON.parse(cachedData);
+    } else {
+      const productInformation = await Product.findOne({ _id: productId });
+      if (productInformation) {
+        const productInfo = JSON.stringify(productInformation);
+        await redis.set(productId, productInfo);
+      }
+      return productInformation;
+    }
+    return product;
+  }
+
+  /**
+   * Creates a new coupon and saves it in the database.
+   * @param {string} name - The name of the coupon.
+   * @param {number} discountPercentage - The discount percentage of the coupon.
+   * @param {Date} validFrom - The start date of the coupon's validity.
+   * @param {Date} validTo - The end date of the coupon's validity.
+   * @returns {Promise<Coupon>} - The newly created coupon.
+   * @throws {Error} - If the coupon cannot be saved in the database.
+   */
+  async createCoupon(name, discountPercentage, validFrom, validTo) {
+    let coupon = new Coupon({
+      name,
+      discountPercentage,
+      validFrom,
+      validTo,
+    });
+    const savedCoupon = await coupon.save();
+    if (!savedCoupon) {
+      throw new Error("Coupon not saved in Database");
+      logger.error("An error occured while creating the coupon");
+    }
+    return savedCoupon;
   }
 }
 

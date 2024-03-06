@@ -1,0 +1,55 @@
+{"level":"error","timestamp":"2024-03-03T07:13:11.515Z"}
+{"level":"error","timestamp":"2024-03-03T07:14:01.219Z"}
+{"level":"error","message":[{"field":null,"help":null,"message":"The provided authorization grant is invalid, expired, or revoked"}],"timestamp":"2024-03-03T07:14:16.618Z"}
+{"code":401,"message":"Unauthorized","response":{"body":{"errors":[{"field":null,"help":null,"message":"The provided authorization grant is invalid, expired, or revoked"}]},"headers":{"access-control-allow-headers":"Authorization, Content-Type, On-behalf-of, x-sg-elas-acl","access-control-allow-methods":"POST","access-control-allow-origin":"https://sendgrid.api-docs.io","access-control-max-age":"600","connection":"close","content-length":"116","content-type":"application/json","date":"Sun, 03 Mar 2024 07:14:16 GMT","server":"nginx","strict-transport-security":"max-age=600; includeSubDomains","x-no-cors-reason":"https://sendgrid.com/docs/Classroom/Basics/API/cors.html"}}}
+{"level":"error","timestamp":"2024-03-03T07:18:09.213Z"}
+{"level":"error","timestamp":"2024-03-03T07:25:50.882Z"}
+{"level":"error","timestamp":"2024-03-03T07:26:28.592Z"}
+{"level":"error","message":[{"field":null,"help":null,"message":"The provided authorization grant is invalid, expired, or revoked"}],"timestamp":"2024-03-03T07:26:30.590Z"}
+{"code":401,"message":"Unauthorized","response":{"body":{"errors":[{"field":null,"help":null,"message":"The provided authorization grant is invalid, expired, or revoked"}]},"headers":{"access-control-allow-headers":"Authorization, Content-Type, On-behalf-of, x-sg-elas-acl","access-control-allow-methods":"POST","access-control-allow-origin":"https://sendgrid.api-docs.io","access-control-max-age":"600","connection":"close","content-length":"116","content-type":"application/json","date":"Sun, 03 Mar 2024 07:26:30 GMT","server":"nginx","strict-transport-security":"max-age=600; includeSubDomains","x-no-cors-reason":"https://sendgrid.com/docs/Classroom/Basics/API/cors.html"}}}
+{"level":"error","message":[{"field":null,"help":null,"message":"The provided authorization grant is invalid, expired, or revoked"}],"timestamp":"2024-03-03T07:26:32.642Z"}
+{"code":401,"message":"Unauthorized","response":{"body":{"errors":[{"field":null,"help":null,"message":"The provided authorization grant is invalid, expired, or revoked"}]},"headers":{"access-control-allow-headers":"Authorization, Content-Type, On-behalf-of, x-sg-elas-acl","access-control-allow-methods":"POST","access-control-allow-origin":"https://sendgrid.api-docs.io","access-control-max-age":"600","connection":"close","content-length":"116","content-type":"application/json","date":"Sun, 03 Mar 2024 07:26:32 GMT","server":"nginx","strict-transport-security":"max-age=600; includeSubDomains","x-no-cors-reason":"https://sendgrid.com/docs/Classroom/Basics/API/cors.html"}}}
+{"level":"error","message":[{"field":null,"help":null,"message":"The provided authorization grant is invalid, expired, or revoked"}],"timestamp":"2024-03-03T07:26:34.405Z"}
+{"code":401,"message":"Unauthorized","response":{"body":{"errors":[{"field":null,"help":null,"message":"The provided authorization grant is invalid, expired, or revoked"}]},"headers":{"access-control-allow-headers":"Authorization, Content-Type, On-behalf-of, x-sg-elas-acl","access-control-allow-methods":"POST","access-control-allow-origin":"https://sendgrid.api-docs.io","access-control-max-age":"600","connection":"close","content-length":"116","content-type":"application/json","date":"Sun, 03 Mar 2024 07:26:34 GMT","server":"nginx","strict-transport-security":"max-age=600; includeSubDomains","x-no-cors-reason":"https://sendgrid.com/docs/Classroom/Basics/API/cors.html"}}}
+{"level":"error","timestamp":"2024-03-03T07:48:26.831Z"}
+{"level":"error","timestamp":"2024-03-03T07:49:41.033Z"}
+{"level":"error","timestamp":"2024-03-03T07:50:36.972Z"}
+{"level":"error","timestamp":"2024-03-03T07:53:25.692Z"}
+{"level":"error","timestamp":"2024-03-03T07:55:13.582Z"}
+{"level":"error","timestamp":"2024-03-03T07:56:47.767Z"}
+{"level":"error","timestamp":"2024-03-03T07:56:56.042Z"}
+{"level":"error","timestamp":"2024-03-03T07:57:02.099Z"}
+{"level":"error","timestamp":"2024-03-03T07:57:03.308Z"}
+{"level":"error","timestamp":"2024-03-03T07:57:35.660Z"}
+{"level":"error","timestamp":"2024-03-03T07:57:38.074Z"}
+{"level":"error","timestamp":"2024-03-03T07:57:39.084Z"}
+{"level":"error","timestamp":"2024-03-03T07:57:55.027Z"}
+{"level":"error","timestamp":"2024-03-03T07:58:01.059Z"}
+{"level":"error","timestamp":"2024-03-03T07:59:42.939Z"}
+{"level":"error","timestamp":"2024-03-03T08:01:10.852Z"}
+{"level":"error","timestamp":"2024-03-03T08:03:13.270Z"}
+{"level":"error","timestamp":"2024-03-05T01:12:49.570Z"}
+{"level":"error","timestamp":"2024-03-05T02:05:04.767Z"}
+{"level":"error","timestamp":"2024-03-05T02:06:00.036Z"}
+{"level":"error","timestamp":"2024-03-05T02:12:09.834Z"}
+{"level":"error","timestamp":"2024-03-05T02:12:11.498Z"}
+{"level":"error","timestamp":"2024-03-05T02:12:45.404Z"}
+{"level":"error","timestamp":"2024-03-05T02:25:52.035Z"}
+{"level":"error","timestamp":"2024-03-05T02:30:29.187Z"}
+{"level":"error","timestamp":"2024-03-05T02:32:23.742Z"}
+{"level":"error","timestamp":"2024-03-05T02:35:25.934Z"}
+{"level":"error","timestamp":"2024-03-05T02:35:27.381Z"}
+{"level":"error","timestamp":"2024-03-05T02:35:28.639Z"}
+{"level":"error","timestamp":"2024-03-05T02:38:51.036Z"}
+{"level":"error","timestamp":"2024-03-05T02:38:52.219Z"}
+{"level":"error","timestamp":"2024-03-05T02:38:53.294Z"}
+{"level":"error","timestamp":"2024-03-05T02:41:31.482Z"}
+{"level":"error","timestamp":"2024-03-05T02:41:32.878Z"}
+{"level":"error","timestamp":"2024-03-05T02:45:01.367Z"}
+{"level":"error","timestamp":"2024-03-05T02:45:02.728Z"}
+{"level":"error","timestamp":"2024-03-05T02:45:49.149Z"}
+{"level":"error","timestamp":"2024-03-05T02:45:50.770Z"}
+{"level":"error","timestamp":"2024-03-05T03:49:34.929Z"}
+{"level":"error","timestamp":"2024-03-05T03:51:01.425Z"}
+{"level":"error","timestamp":"2024-03-05T03:53:31.155Z"}
+{"level":"error","timestamp":"2024-03-05T03:54:40.923Z"}
