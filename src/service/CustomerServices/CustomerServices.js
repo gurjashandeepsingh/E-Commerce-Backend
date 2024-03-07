@@ -223,14 +223,21 @@ class CustomerService {
    * @returns {Promise<Array>} - An array of products that match the search criteria.
    */
   async searchProducts(searchString) {
-    const products = await Product.find({
-      $or: [
-        { name: { $regex: searchString, $options: "i" } }, // Case-insensitive search by name
-        { description: { $regex: searchString, $options: "i" } }, // Case-insensitive search by description
-        { category: { $regex: searchString, $options: "i" } }, // Case-insensitive search by category
-      ],
-    });
-    return products;
+    const regex = new RegExp(`.*${searchString}.*`, "i"); // case insensitive
+
+    try {
+      const products = await Product.find({
+        $or: [
+          { name: { $regex: regex } }, // Case-insensitive search by name
+          { description: { $regex: regex } }, // Case-insensitive search by description
+          { category: { $regex: regex } }, // Case-insensitive search by category
+        ],
+      });
+      return products;
+    } catch (e) {
+      console.error("Error while searching products:", e);
+      throw e; // Rethrow the error to propagate it to the caller
+    }
   }
 
   async userDashboard(userId) {

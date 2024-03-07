@@ -4,7 +4,6 @@ import { validationResult, body } from "express-validator";
 import { CustomerService } from "../../service/CustomerServices/CustomerServices.js";
 import { AuthMiddleware } from "../../middlewares/auth.js";
 import { logger } from "../../../winstonLogger.js";
-import { CouponService } from "../../service/CouponService/CouponServices.js";
 
 // Category Listing
 // An API endpoint that retrieves a list of categories
@@ -285,7 +284,7 @@ router.post(
  */
 router.get("/searchProduct", async (request, response) => {
   try {
-    const { searchString } = request.body;
+    const { searchString } = request.query;
     const searchProductInstance = await new CustomerService();
     const result = await searchProductInstance.searchProducts(searchString);
     response.status(200).send(result);
